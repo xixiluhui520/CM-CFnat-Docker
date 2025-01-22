@@ -1,9 +1,9 @@
 {
-"spider":"./fty.jar",
-#"spider":"./ok.png",
-#"spider":"./fm.jar",
-#"spider":"./pg.jar",
-"logo": "./lib/GIF/海贼王.gif",
+"spider":"http://haoxixi.us.kg:1980/d/alist/fty.jar",
+#"spider":"http://haoxixi.us.kg:1980/d/alist/ok.png",
+#"spider":"http://haoxixi.us.kg:1980/d/alist/fm.jar",
+#"spider":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
+"logo": "http://haoxixi.us.kg:1980/d/alist/lib/GIF/海贼王.gif",
 
 #各个官方源
 "sites":[
@@ -13,16 +13,16 @@
        "type":3,
        "api":"csp_TGDouban",
        "timeout":120, 
-       "jar": "./pg.jar",
+       "jar": "http://haoxixi.us.kg:1980/d/alist/pg.jar",
 			 "ext":{
-				"token":"./lib/token.json",
-				"json":"./lib/tgsearch.json",
+				"token":"http://haoxixi.us.kg:1980/d/alist/lib/token.json",
+				"json":"http://haoxixi.us.kg:1980/d/alist/lib/tgsearch.json",
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://haoxixi.us.kg:10198",
 				"tgsearch_media_url":"http://haoxixi.us.kg:10198",
 				"channellist":"alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
 				"proxy":"noproxy",
-				"douban":"./lib/douban.json",
+				"douban":"http://haoxixi.us.kg:1980/d/alist/lib/douban.json",
 				"danmu":true
 			},
 			  "style": {
@@ -36,13 +36,13 @@
            "type":3,
            "api": "csp_Youtube",
            "searchable": 1,
-           "jar": "./pg.jar",
+           "jar": "http://haoxixi.us.kg:1980/d/alist/pg.jar",
            "quickSearch": 0,
            "changeable": 0,
            "timeout": 120,
            "ext":{
-                  "token":"./lib/tokenm.json",
-                  "json":"./lib/youtube3.json",
+                  "token":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+                  "json":"http://haoxixi.us.kg:1980/d/alist/lib/youtube3.json",
                   "type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
 				          "keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
                   "proxy":"proxy",
@@ -60,19 +60,19 @@
       "type": 3,
       "api": "csp_Youtube",
       "searchable": 1,
-      "jar":"./custom_spider.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar",
       "changeable": 1,
       "style": {
         "type": "rect",
         "ratio": 1.433
       },
       "ext": {
-        "commonConfig": "./json/peizhi.json",
-        "json": "./json/youtube.json",
+        "commonConfig": "http://haoxixi.us.kg:1980/d/alist/json/peizhi.json",
+        "json": "http://haoxixi.us.kg:1980/d/alist/json/youtube.json",
         "cookie": "VISITOR_INFO1_LIVE=44E0LEyERH0; VISITOR_PRIVACY_METADATA=CgJKUBIEGgAgOg%3D%3D; _ga=GA1.1.260702993.1717771478; __Secure-3PSID=g.a000kgi1hC9Rgllp9kC5PdXdDZXknaeXCPtCewj8Rs6LaTTW0v0fT6zFN9QRNMyZsViePsLfTAACgYKAZESARMSFQHGX2MiglMreX8fh8i3Jioq3nJVKRoVAUF8yKq5Yz4v3ainRlOFQkNxDlef0076; __Secure-3PAPISID=-R7B9Q2IbdIu13Wb/AZg8kQ287jqyJLDFq; NID=514=hC-H9rrGizQRy1vKtP54JVikv15pjTvQmQsILOuX6vU8wzXTa1JtRToA0BFnE-nQUMrIXSpQaAlxC4cZafc0gyEjyRBncFHU4-9SHxDmWRCssV6NVQQx-3Q4aZ8DV4o45ZQxNmVpYf2naKTqJtOuCo-yUCsVSx9oA6XdpSHcRVQ; _ga_VCGEPY40VB=GS1.1.1717889498.2.1.1717889531.27.0.0; LOGIN_INFO=AFmmF2swRAIgYKGBPTLk-B1s7Hv8WFwLCU2cz-ZRNKu8jdZa2Djdb5gCIGvN30MXQ8XhRKn90GJSPK2zV5E9L8OI7xWPl31sDRss:QUQ3MjNmd0pudl9SbWVSLXRKYmo1R0NHODQwLUdVRTVhMXVUNnpoaFctN1RIOVRsZzRleFpJTGk2NVhNX3J2SzAzQnJ6VG43eXdWMEZIVG1Jazhtc1lpenpaOEhpZzZ4NF9jVVZmWGZyT0daZGx0ajhfalU4WVV3cWZ3UWRmbC1ncGd6bVZra2NoRmJfMF9yT3ZHYkRhNzRJclU3TWNrbURn; VISITOR_INFO1_LIVE=44E0LEyERH0; VISITOR_PRIVACY_METADATA=CgJKUBIEGgAgOg%3D%3D; PREF=f4=4000000&tz=Asia.Shanghai&f7=100&gl=FR&f5=20000; YSC=xQYAo8QElL8; __Secure-1PSIDTS=sidts-CjEBQT4rX8hIBLbzjZjqZEVYp3KMZ5rFRWopGx7ggmcgrDUikpC_1q4Md-mfZaKn71sCEAA; __Secure-3PSIDTS=sidts-CjEBQT4rX8hIBLbzjZjqZEVYp3KMZ5rFRWopGx7ggmcgrDUikpC_1q4Md-mfZaKn71sCEAA; __Secure-3PSIDCC=AKEyXzXfZRXu5Vupp9LjzkVTbwd04U3lvVnUMmMG1mn50a-InGFTmScmXsL0DOWyh0oQsG1341A"
       }
     },
-  {"key": "豆瓣","name": "🌱 | 豆瓣","type": 3,"api": "csp_Douban","searchable": 0,"changeable": 1,"indexs":1,"jar":"./pg.jar","ext": "./lib/douban.json"},
+  {"key": "豆瓣","name": "🌱 | 豆瓣","type": 3,"api": "csp_Douban","searchable": 0,"changeable": 1,"indexs":1,"jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar","ext": "http://haoxixi.us.kg:1980/d/alist/lib/douban.json"},
  #{"key":"豆豆","name":"🌱 | 豆瓣","type": 3, "api": "csp_DouDou","searchable": 0,"changeable": 1,"indexs":1},
     {
 			"key": "网盘配置",
@@ -81,12 +81,12 @@
 			"api": "csp_Config",
 			"searchable": 0,
 			"changeable": 0,
-			"ext":"./lib/tokenm.json",
+			"ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
       "style": {
 				"type": "rect",
 				"ratio": 1.5
 			},
-      "jar":"./pg.jar"
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },  
        {
             "key": "配置中心",
@@ -99,7 +99,7 @@
                 "type": "rect",
                 "ratio": 1.43
             },
-    "jar":"./ok.png"
+    "jar":"http://haoxixi.us.kg:1980/d/alist/ok.png"
       },
      {
       "key": "ConfigCenter",
@@ -109,9 +109,9 @@
       "searchable": 0,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./json/peizhi.json"
+        "commonConfig": "http://haoxixi.us.kg:1980/d/alist/json/peizhi.json"
       },
-      "jar":"./custom_spider.jar"
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar"
     },
 		{
       "key":"115Share",
@@ -123,8 +123,8 @@
       "changeable":1, 
       "filterable":0, 
       "timeout":120, 
-      "jar":"./pg.jar",
-      "ext":"./lib/tokenm.json$$$./lib/115shareA.txt$$$db$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://haoxixi.us.kg:1980/d/alist/lib/115shareA.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -134,7 +134,7 @@
       "key": "Tg💞服务器",
       "name": "Tg💞服务器",
       "type": 3,
-      "jar":"./custom_spider.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar",
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
       "filterable": 0,
@@ -142,34 +142,34 @@
       "ext": {
         "siteUrl": "https://tgsou.uu8.pro/",
         "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
-        "commonConfig": "./json/peizhi.json",
-        "filter": "./json/douban.json"
+        "commonConfig": "http://haoxixi.us.kg:1980/d/alist/json/peizhi.json",
+        "filter": "http://haoxixi.us.kg:1980/d/alist/json/douban.json"
       }
     },
     {
       "key": "Tg💞本地",
       "name": "Tg💞本地",
       "type": 3,
-      "jar":"./custom_spider.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar",
       "api": "csp_TgYunPanLocal",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
       "ext": {
         "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
-        "commonConfig": "./json/peizhi.json"
+        "commonConfig": "http://haoxixi.us.kg:1980/d/alist/json/peizhi.json"
       }
     },
 		{
       "key":"TGYunPanLocal",
       "name":"🔍TG频道搜索",
       "type":3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "api":"csp_TGYunPanLocal",
       "timeout":120, 
 			"ext":{
-				"token":"./lib/tokenm.json",
-				"json":"./lib/tgsearch.json",
+				"token":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+				"json":"http://haoxixi.us.kg:1980/d/alist/lib/tgsearch.json",
 				"keywords":"名称,片名,推荐",
 			  "tgsearch_url":"http://haoxixi.us.kg:10198",
 			  "tgsearch_media_url":"http://haoxixi.us.kg:10198",
@@ -186,12 +186,12 @@
       "key":"TGYunPan",
       "name":"🔍TG群组搜索",
       "type":3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "api":"csp_TGYunPan",
       "timeout":120, 
 			"ext":{
-			"token":"./lib/tokenm.json",
-			"json":"./lib/tgsearch.json",
+			"token":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+			"json":"http://haoxixi.us.kg:1980/d/alist/lib/tgsearch.json",
 			"keywords":"名称,片名,推荐",
 			"tgsearch_url":"http://haoxixi.us.kg:10198",
 			"tgsearch_media_url":"http://haoxixi.us.kg:10198",
@@ -208,12 +208,12 @@
         "key":"TGYunPan6",
         "name":"🔍TG群组视频",
         "type":3,
-        "jar":"./pg.jar",
+        "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
         "api":"csp_TGYunPan",
         "timeout":120,
             "ext":{
-                    "token":"./lib/tokenm.json",
-                    "json":"./lib/tgsearch.a.json",
+                    "token":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+                    "json":"http://haoxixi.us.kg:1980/d/alist/lib/tgsearch.a.json",
                     "keywords":"名称,片名,推荐",
                     "keywords": "名称,片名,推荐",
 			              "tgsearch_url":"http://haoxixi.us.kg:10198",
@@ -227,10 +227,10 @@
 				            "ratio": 1.77
 			            }
 		        },
-       {"key":"TGYunPanLocalSS","name":"🔍TG频道|涩涩","type":3,"jar":"./pg.jar","api":"csp_TGYunPanLocal","timeout":120, 
+       {"key":"TGYunPanLocalSS","name":"🔍TG频道|涩涩","type":3,"jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar","api":"csp_TGYunPanLocal","timeout":120, 
    "ext":{
-    "token":"./lib/tokenm.json",
-    "json":"./lib/tgsearch.a.json",
+    "token":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+    "json":"http://haoxixi.us.kg:1980/d/alist/lib/tgsearch.a.json",
     "keywords":"名称,片名,推荐",
     "tgsearch_url":"http://haoxixi.us.kg:10198",
     "tgsearch_media_url":"http://haoxixi.us.kg:10198",
@@ -243,10 +243,10 @@
 				"ratio": 1.77
 			}
 		},
-  {"key":"TGYunPanQZSS","name":"🔍TG群组|涩涩","type":3,"jar":"./pg.jar","api":"csp_TGYunPan","timeout":120, 
+  {"key":"TGYunPanQZSS","name":"🔍TG群组|涩涩","type":3,"jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar","api":"csp_TGYunPan","timeout":120, 
    "ext":{
-    "token":"./lib/tokenm.json",
-    "json":"./lib/tgsearch.a.json",
+    "token":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+    "json":"http://haoxixi.us.kg:1980/d/alist/lib/tgsearch.a.json",
     "keywords":"名称,片名,推荐",
     "tgsearch_url":"http://haoxixi.us.kg:10198",
     "tgsearch_media_url":"http://haoxixi.us.kg:10198",
@@ -263,12 +263,12 @@
             "key": "TGYunPanLocal1",
             "name": "🔍TG|涩涩",
             "type": 3,
-            "jar":"./pg.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
             "api": "csp_TGYunPanLocal",
             "timeout": 120,
             "ext": {
-                "token": "./lib/tokenm.json",
-                "json": "./lib/tgsearch.cg.json",
+                "token": "http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+                "json": "http://haoxixi.us.kg:1980/d/alist/lib/tgsearch.cg.json",
                 "keywords": "名称,片名,推荐",
 			          "tgsearch_url":"http://haoxixi.us.kg:10198",
 			          "tgsearch_media_url":"http://haoxixi.us.kg:10198",
@@ -285,12 +285,12 @@
             "key": "TGYunPan1",
             "name": "🔍TG|磁力",
             "type": 3,
-            "jar":"./pg.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
             "api": "csp_TGYunPan",
             "timeout": 120,
             "ext": {
-                "token": "./lib/tokenm.json",
-                "json": "./lib/tgsearch.cg.json",
+                "token": "http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+                "json": "http://haoxixi.us.kg:1980/d/alist/lib/tgsearch.cg.json",
                 "keywords": "名称,片名,推荐",
 			          "tgsearch_url":"http://haoxixi.us.kg:10198",
 			          "tgsearch_media_url":"http://haoxixi.us.kg:10198",
@@ -307,14 +307,14 @@
       "key":"AlistShare",
       "name":"🐰 | PG小雅",
       "type":3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "api":"csp_AlistShare",
       "searchable":1,
       "quickSearch":1, 
       "changeable":1, 
       "filterable":0, 
       "timeout":120, 
-      "ext":"./lib/tokenm.json$$$https://slink.ltd/https://raw.githubusercontent.com/xiaoyaliu00/data/main/update.zip$$$onproxy$$$1",
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://slink.ltd/https://raw.githubusercontent.com/xiaoyaliu00/data/main/update.zip$$$onproxy$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -324,101 +324,101 @@
       "key":"Guanying",
       "name":"🎥观影|网盘|磁力",
       "type":3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "api":"csp_Guanying",
       "quickSearch":1, 
       "changeable":1, 
       "filterable":1, 
       "timeout":60, 
-      "ext":"./lib/tokenm.json$$$https://www.gyg.la$$$noproxy$$$1$$$./lib/guanying.txt"
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.gyg.la$$$noproxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/guanying.txt"
       },
     {
       "key": "网盘集合",
       "name": "💞网盘集合|4K",
       "type": 3,
-      "jar":"./custom_spider.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar",
       "api": "csp_网盘集合",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "commonConfig": "./json/peizhi.json",
-        "share": "./json/网盘集合A.json"
+        "commonConfig": "http://haoxixi.us.kg:1980/d/alist/json/peizhi.json",
+        "share": "http://haoxixi.us.kg:1980/d/alist/json/网盘集合A.json"
       }
     },
     {
       "key": "玩偶 | 💞蜡笔",
       "name": "玩偶 | 💞蜡笔",
       "type": 3,
-      "jar":"./custom_spider.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar",
       "api": "csp_kongbai",
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./json/peizhi.json",
+        "commonConfig": "http://haoxixi.us.kg:1980/d/alist/json/peizhi.json",
         "siteUrl": "http://labipan.com/",
-        "filter": "./json/wogg.json"
+        "filter": "http://haoxixi.us.kg:1980/d/alist/json/wogg.json"
       }
     },
     {
       "key": "玩偶 | 💞木偶",
       "name": "玩偶 | 💞木偶",
       "type": 3,
-      "jar":"./custom_spider.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar",
       "api": "csp_kongbai",
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./json/peizhi.json",
+        "commonConfig": "http://haoxixi.us.kg:1980/d/alist/json/peizhi.json",
         "siteUrl": "http://mogg.xn--yetu07f.top/",
-        "filter": "./json/wogg.json"
+        "filter": "http://haoxixi.us.kg:1980/d/alist/json/wogg.json"
       }
     },
     {
       "key": "星剧社",
       "name": "💞 | 星剧社",
       "type": 3,
-      "jar":"./custom_spider.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar",
       "api": "csp_Star2",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "commonConfig": "./json/peizhi.json"
+        "commonConfig": "http://haoxixi.us.kg:1980/d/alist/json/peizhi.json"
       }
     },
     {
       "key": "lf_live10_min",
       "name": " 💞路飞丨Live",
       "type": 3,
-      "jar":"./custom_spider.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "api": "./lib/lf_live10_min-output.js",
-      "ext": "./json/lf_live.json"
+      "api": "http://haoxixi.us.kg:1980/d/alist/lib/lf_live10_min-output.js",
+      "ext": "http://haoxixi.us.kg:1980/d/alist/json/lf_live.json"
     },
 		{
 			"key": "直播转点播",
 			"name": "🐼️┃电视┃直播",
 			"type": 3,
 			"searchable": 0,
-			"api": "./lib/live2vod.js",
-			"ext": "./lib/feimaolive1.json",
-      "jar":"./pg.jar"
+			"api": "http://haoxixi.us.kg:1980/d/alist/lib/live2vod.js",
+			"ext": "http://haoxixi.us.kg:1980/d/alist/lib/feimaolive1.json",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
 		},
 		{"key":"AliShare",
      "name":"😻PG | 阿里影视分享",
      "type":3,
      "api":"csp_AliShare",
      "searchable":1,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "quickSearch":1, 
      "changeable":1, 
      "filterable":0, 
      "timeout":60, 
-     "ext":"./lib/tokenm.json$$$./lib/alishare.txt$$$db$$$1",
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://haoxixi.us.kg:1980/d/alist/lib/alishare.txt$$$db$$$1",
 	   "style": {
 		 "type": "list",
 		 "ratio": 1.1
@@ -433,8 +433,8 @@
      "changeable":1, 
      "filterable":1, 
      "timeout":120, 
-     "ext":"./lib/tokenm.json$$$https://hdhive.online$$$noproxy$$$1$$$./lib/hdhive.txt",
-     "jar":"./pg.jar"
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://hdhive.online$$$noproxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/hdhive.txt",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
      },
 		{
       "key":"QuarkShare",
@@ -446,8 +446,8 @@
       "changeable":0, 
       "filterable":0, 
       "timeout":60, 
-      "jar":"./pg.jar",
-      "ext":"./lib/tokenm.json$$$./lib/quarkshare.txt",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://haoxixi.us.kg:1980/d/alist/lib/quarkshare.txt",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -463,12 +463,12 @@
       "changeable":0, 
       "filterable":0, 
       "timeout":60, 
-      "ext":"./lib/sky.json$$$./lib/ucshare.txt", 
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/sky.json$$$http://haoxixi.us.kg:1980/d/alist/lib/ucshare.txt", 
       "style": {
                 "type": "list",
                 "ratio": 1.1
                   },
-      "jar":"./pg.jar"
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
           },
     {
             "key": "木偶哥哥",
@@ -479,8 +479,8 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$http://mogg.top/$$$noproxy$$$1$$$./lib/wogg.json$$$MOGG",
-            "jar":"./pg.jar"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://mogg.top/$$$noproxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json$$$MOGG",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
         },
       {
 			"key": "小米网盘",
@@ -491,8 +491,8 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://mihdr.top/$$$noproxy$$$1$$$./lib/wogg.json$$$XIAOMI",
-      "jar":"./pg.jar"
+			"ext": "http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://mihdr.top/$$$noproxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json$$$XIAOMI",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
 		  },
    	{
      "key":"PushShare1",
@@ -500,12 +500,12 @@
      "type":3, 
      "api":"csp_PushShare",
      "searchable":1,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "quickSearch":1, 
      "changeable":1, 
      "filterable":0, 
      "timeout":60, 
-     "ext":"./lib/tokenm.json$$$./lib/自建.txt$$$db$$$1",
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://haoxixi.us.kg:1980/d/alist/lib/自建.txt$$$db$$$1",
 		 "style": {
 		 "type": "list",
 		 "ratio": 1.1
@@ -520,9 +520,9 @@
      "quickSearch":1, 
      "changeable":1, 
      "filterable":0, 
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "timeout":60, 
-     "ext":"./lib/tokenm.json$$$./lib/pikpakclass.json$$$proxy$$$./lib/pikpakclass.json.txt.gz",
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://haoxixi.us.kg:1980/d/alist/lib/pikpakclass.json$$$proxy$$$http://haoxixi.us.kg:1980/d/alist/lib/pikpakclass.json.txt.gz",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -532,14 +532,14 @@
       "key": "玩偶6",
       "name": "💞 | 玩偶gg",
       "type": 3,
-      "jar":"./custom_spider.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar",
       "api": "csp_Wogg",
       "searchable": 1,
       "changeable": 0,
       "ext": {
-      "commonConfig": "./json/peizhi.json",
+      "commonConfig": "http://haoxixi.us.kg:1980/d/alist/json/peizhi.json",
       "siteUrl":"https://www.wogg.net/",
-      "filter": "./json/wogg.json"
+      "filter": "http://haoxixi.us.kg:1980/d/alist/json/wogg.json"
               }
       },
     {
@@ -566,8 +566,8 @@
       "changeable":1,
       "filterable":1, 
       "timeout":60, 
-      "ext":"./lib/tokenm.json$$$https://www.wogg.net/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG",
-      "jar":"./pg.jar"
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.wogg.net/$$$noproxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json$$$WOGG",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
      },
      {
       "key":"玩偶弹幕版",
@@ -587,7 +587,7 @@
       "proxy" : "noproxy"
       },
     "timeout":30,
-    "jar":"./ok.png"
+    "jar":"http://haoxixi.us.kg:1980/d/alist/ok.png"
     },
     {"key":"抠搜","name":"🍄抠抠┃搜搜","type":3,"api":"csp_KkSs","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
     {"key":"UC","name":"🌈优汐┃搜搜","type":3,"api":"csp_UuSs","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
@@ -595,10 +595,10 @@
       "key":"秒搜",
      "name":"🎬秒搜|网盘搜索",
      "type":3,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "api":"csp_MiaoSou",
      "timeout":60, 
-     "ext":"./lib/tokenm.json",
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
 		 "style": {
 		 "type": "list",
 		 "ratio": 1.1
@@ -608,7 +608,7 @@
 			"key": "JustLive",
 			"name": "JustLive",
 			"type": 3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
 			"api": "csp_JustLive",
 			"searchable": 1,
 			"changeable": 0
@@ -621,9 +621,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./peizhi.json"
+        "commonConfig": "http://haoxixi.us.kg:1980/d/alist/peizhi.json"
       },
-      "jar":"./custom_spider.jar"
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar"
     },
       {
             "key": "至臻网盘",
@@ -633,9 +633,9 @@
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-            "jar":"./pg.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$http://mpanso.com/$$$noproxy$$$1$$$./lib/wogg.json"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://mpanso.com/$$$noproxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json"
         },
       {
         "key":"云星4K",
@@ -645,9 +645,9 @@
         "quickSearch":1, 
         "changeable":1, 
         "filterable":1, 
-        "jar":"./pg.jar",
+        "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
         "timeout":60, 
-        "ext":"./lib/tokenm.json$$$https://4k.4u4.cn$$$noproxy$$$1$$$./lib/wogg.json"
+        "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://4k.4u4.cn$$$noproxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json"
       },
     {
       "key":"Xpanpan",
@@ -658,8 +658,8 @@
       "changeable":1, 
       "filterable":1, 
       "timeout":60, 
-      "jar":"./pg.jar",
-      "ext":"./lib/tokenm.json$$$https://xpanpan.site$$$noproxy$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://xpanpan.site$$$noproxy$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -674,8 +674,8 @@
       "changeable":1, 
       "filterable":1, 
       "timeout":60, 
-      "ext":"./lib/tokenm.json$$$https://duopan.fun/$$$noproxy$$$1$$$./lib/wogg.json",
-      "jar":"./pg.jar"
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://duopan.fun/$$$noproxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
     {
      "key":"Wobg",
@@ -686,61 +686,61 @@
      "changeable":1, 
      "filterable":1, 
      "timeout":60, 
-     "ext":"./lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$./lib/wogg.json",
-     "jar":"./pg.jar"
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
      },
     {"key":"yydsys",
      "name":"🥷玩你老哥 | 网盘",
      "type":3,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "api":"csp_Wobg",
      "quickSearch":1, 
      "changeable":1, 
      "filterable":1, 
      "timeout":60, 
-     "ext":"./lib/tokenm.json$$$https://tv.yydsys.top/$$$noproxy$$$1$$$./lib/wogg.json"
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://tv.yydsys.top/$$$noproxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json"
      },
     {
      "key":"tudou",
      "name":"🥔 | 土豆影視-pg",
      "type":3,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "api":"csp_Wobg",
      "quickSearch":1, 
      "changeable":1,
      "filterable":1, 
      "timeout":30, 
-     "ext":"./lib/tokenm.json$$$https://tudou.lvdoui.top/$$$null$$$1$$$./lib/wogg.json"
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://tudou.lvdoui.top/$$$null$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json"
      },
     {
      "key":"YingSo",
      "name":"🎬|影搜|网盘",
      "type":3,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "api":"csp_YingSo",
      "timeout":60, 
-     "ext":"./lib/tokenm.json"
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json"
      },
       {
             "key": "找資源",
             "name": "😹阿里 | 找資源",
             "type": 3,
-            "jar":"./pg.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
             "api": "csp_Zhaozy",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$108879918@qq.com$$$luhui3344520"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$108879918@qq.com$$$luhui3344520"
         },
    {
      "key":"YunPan",
      "name":"🌥云盘资源 | 💾网盘",
      "type":3,
      "api":"csp_YunPan",
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "timeout":60, 
-     "ext":"./lib/tokenm.json$$$null$$$proxy$$$1"
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$null$$$proxy$$$1"
 		},
     {
       "key":"蜡笔网盘",
@@ -751,8 +751,8 @@
       "changeable":1, 
       "filterable":1, 
       "timeout":60, 
-      "ext":"./lib/tokenm.json$$$https://duopan.fun/$$$noproxy$$$1$$$./lib/wogg.json",
-      "jar":"./pg.jar"
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://duopan.fun/$$$noproxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
     {
       "key":"我的夸克",
@@ -763,19 +763,19 @@
       "quickSearch":0,
       "filterable":0,"indexs":0,
       "ext": {
-      "cookie": "./ok/quark_cookie.txt"
+      "cookie": "http://haoxixi.us.kg:1980/d/alist/ok/quark_cookie.txt"
       }, 
       "style":{"type":"list"}, 
       "timeout": 30,
-      "jar":"./ok.png"
+      "jar":"http://haoxixi.us.kg:1980/d/alist/ok.png"
       },
     {"key":"夸搜","name":"🐌夸搜┃搜索","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext": {"pan":"quark",Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
    {
    "key":"drpy_js_玩偶",
    "name":"🥷道长 | 玩偶哥哥",
    "type":3,
-   "api":"./drpy/drpy2.js",
-   "ext":"./drpy_js/玩偶哥哥.js", 
+   "api":"http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.js",
+   "ext":"http://haoxixi.us.kg:1980/d/alist/drpy_js/玩偶哥哥.js", 
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
@@ -785,10 +785,10 @@
    "key": "bilibili",
    "name": "📺bilibili | 影视",
    "type": 3,
-   "api": "./drpy/drpy2.min.js",
+   "api": "http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.min.js",
    "searchable": 1,
    "changeable": 0,
-   "ext": "./drpy_js/哔哩影视.js"
+   "ext": "http://haoxixi.us.kg:1980/d/alist/drpy_js/哔哩影视.js"
   },
     {
       "key": "哔哩FM",
@@ -796,14 +796,14 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
-      "jar":"./custom_spider.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/custom_spider.jar",
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1.433
       },
       "ext": {
-        "json": "./bilibili.json",
+        "json": "http://haoxixi.us.kg:1980/d/alist/bilibili.json",
         "cookie": "SESSDATA=5f8c4a89%2C1752488096%2C52362%2A11CjAAdQB5YglgoSs49cbm83UO6JBQO4Pmj9pO-yNxaCcKWl7xnp-odpKcrS49oEPstTYSVkFCZjN1RHB1R1VnaFZkbkg5SXNiUmtGYzJ1d2w5VmJmLXlFNjNtTWVEd2FHbC15YkRyU2NOVmtrUUxDZlNIME90bE82ODNoZmpUUl9VbE1zSDhzWWZ3IIEC; bili_jct=1f5b7db75139deec27bfbdcf306b98b7"
       }
     },
@@ -813,7 +813,7 @@
 			"type":3,
 			"api": "csp_Bili",
 			"searchable": 1,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext":{
@@ -934,30 +934,30 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext": "./ok/黑木耳资源.json",
-        "jar": "./XBPQ.jar"
+        "ext": "http://haoxixi.us.kg:1980/d/alist/ok/黑木耳资源.json",
+        "jar": "http://haoxixi.us.kg:1980/d/alist/XBPQ.jar"
     },
     {
             "key": "JS",
             "name": "🎀甄嬛｜4K影院",
             "type": 3,
-            "api": "./lib/drpy2.min.js",
+            "api": "http://haoxixi.us.kg:1980/d/alist/lib/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
-            "ext": "./js/4KAV.js"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/js/4KAV.js"
         },
         {
             "key": "07104K-剧院",
             "name": "🎀紫薇｜4K影院",
             "type": 3,
-            "api": "./lib/drpy2.min.js",
+            "api": "http://haoxixi.us.kg:1980/d/alist/lib/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
-            "ext": "./js/4K剧院.js"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/js/4K剧院.js"
         },
     {
       "key":"欧乐影院",
@@ -966,7 +966,7 @@
       "api":"csp_Olevod", 
       "quickSearch":1, 
       "changeable":1, 
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "filterable":1, 
       "timeout":60,
       "ext":"/lib/tokenm.json$$$null$$$http://haoxixi.us.kg:5777$$$1"
@@ -977,10 +977,10 @@
      "type":3,"api":"csp_PanSearch",
      "quickSearch":1, 
      "changeable":1, 
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "filterable":1, 
      "timeout":60, 
-     "ext":"./lib/tokenm.json$$$null$$$http://haoxixi.us.kg:5777"
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$null$$$http://haoxixi.us.kg:5777"
      },
         {
             "key": "运输车弹幕版",
@@ -991,25 +991,25 @@
             "filterable": 1,
             "changeable": 1,
             "ext": {
-                "token": "./ok/ali_token.txt",
-                "cookie": "./ok/quark_cookie.txt",
+                "token": "http://haoxixi.us.kg:1980/d/alist/ok/ali_token.txt",
+                "cookie": "http://haoxixi.us.kg:1980/d/alist/ok/quark_cookie.txt",
                 "site": "https://www.weixine.link",
                 "danmu": true
             },
             "timeout": 25,
-    "jar":"./ok.png"
+    "jar":"http://haoxixi.us.kg:1980/d/alist/ok.png"
       },
       {
             "key": "找資源",
             "name": "😹阿里 | 找資源",
             "type": 3,
-            "jar":"./pg.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
             "api": "csp_Zhaozy",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$108879918@qq.com$$$luhui3344520"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$108879918@qq.com$$$luhui3344520"
         },
         {
             "key": "我哥哥弹幕",
@@ -1020,13 +1020,13 @@
             "changeable": 1,
             "filterable": 1,
             "ext": {
-                "token": "./ok/ali_token.txt",
-                "cookie": "./ok/quark_cookie.txt",
+                "token": "http://haoxixi.us.kg:1980/d/alist/ok/ali_token.txt",
+                "cookie": "http://haoxixi.us.kg:1980/d/alist/ok/quark_cookie.txt",
                 "site": "http://www.ttkx.live",
                 "danmu": true
             },
             "timeout": 25,
-    "jar":"./ok.png"
+    "jar":"http://haoxixi.us.kg:1980/d/alist/ok.png"
       },
         {
             "key": "玩偶表哥弹幕",
@@ -1037,16 +1037,16 @@
             "changeable": 1,
             "filterable": 1,
             "ext": {
-                "token": "./ok/ali_token.txt",
-                "cookie": "./ok/quark_cookie.txt",
+                "token": "http://haoxixi.us.kg:1980/d/alist/ok/ali_token.txt",
+                "cookie": "http://haoxixi.us.kg:1980/d/alist/ok/quark_cookie.txt",
                 "danmu": true
             },
             "timeout": 25,
-    "jar":"./ok.png"
+    "jar":"http://haoxixi.us.kg:1980/d/alist/ok.png"
       },
  {"key":"米搜","name":"🦋米搜┃搜索","type":3,"api":"csp_MIPanSo","searchable":1,"quickSearch":1,"changeable":0,"ext": {"pan":"quark","quarkCookie":"tvfan/cookie.txt","from":"4k|auto|fhd"}},
-{"key":"影视车","name":"影视车🚚|网盘","type":3,"api":"csp_Wogg","jar":"./pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.weixine.link/$$$proxy$$$1$$$./lib/wogg.json"},
-{"key":"Wobg","name":"👨‍🌾玩偶表哥|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$./lib/wogg.json","jar":"./pg.jar"},
+{"key":"影视车","name":"影视车🚚|网盘","type":3,"api":"csp_Wogg","jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.weixine.link/$$$proxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json"},
+{"key":"Wobg","name":"👨‍🌾玩偶表哥|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json","jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"},
     {
       "key": "夸搜",
       "name": "🐺夸搜┃搜索",
@@ -1056,13 +1056,13 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": {
-        "quarkCookie": "./ok/quark_cookie.txt",
+        "quarkCookie": "http://haoxixi.us.kg:1980/d/alist/ok/quark_cookie.txt",
         "from": "4k|auto|fhd"
       }
     },
-  {"key": "push_agent","name": "🛴 | 推送","type": 3,"api": "csp_Push","jar": "./pg.jar","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"},
+  {"key": "push_agent","name": "🛴 | 推送","type": 3,"api": "csp_Push","jar": "http://haoxixi.us.kg:1980/d/alist/pg.jar","changeable":0, "timeout":30, "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json"},
   #{"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext": {"aliToken":"tvfan/token.txt","quarkCookie":"tvfan/cookie.txt","from":"4k|auto|fhd","danMu":"弹"}},
-  # {"key":"push_agent","name":"🛴手机┃推送","type":3,"jar":"./ok.png","api":"csp_Push","searchable":0,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt", "cookie": "file://TV/quark_cookie.txt", "danmu": true},"timeout":15}, 
+  # {"key":"push_agent","name":"🛴手机┃推送","type":3,"jar":"http://haoxixi.us.kg:1980/d/alist/ok.png","api":"csp_Push","searchable":0,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt", "cookie": "file://TV/quark_cookie.txt", "danmu": true},"timeout":15}, 
 
     {
       "key": "AList6",
@@ -1071,8 +1071,8 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "./TV/alist.json",
-      "jar":"./pg.jar"
+      "ext": "http://haoxixi.us.kg:1980/d/alist/TV/alist.json",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
     },
     {
       "key": "AList8",
@@ -1081,20 +1081,20 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "./TV/alist8.json",
-      "jar":"./pg.jar"
+      "ext": "http://haoxixi.us.kg:1980/d/alist/TV/alist8.json",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
     },
  		{"key":"PushShare",
      "name":"🧸🧲pg|阿里.磁力资源自建1",
      "type":3, 
      "api":"csp_PushShare",
      "searchable":1,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "quickSearch":1, 
      "changeable":1, 
      "filterable":0, 
      "timeout":60, 
-     "ext":"./lib/tokenm.json$$$./lib/pushshare.a.txt$$$db$$$1",
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://haoxixi.us.kg:1980/d/alist/lib/pushshare.a.txt$$$db$$$1",
 		 "style": {
 		 "type": "list",
 		 "ratio": 1.1
@@ -1106,10 +1106,10 @@
        "key":"88Pan",
       "name":"8️⃣8️⃣网盘|网盘搜索",
       "type":3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "api":"csp_EightEight",
       "timeout":60, 
-      "ext":"./lib/tokenm.json$$$https://662688.xyz$$$",
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://662688.xyz$$$",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -1125,13 +1125,13 @@
       "filterable": 0,
       "indexs": 0,
       "ext": {
-      "token": "./ok/ali_token.txt"
+      "token": "http://haoxixi.us.kg:1980/d/alist/ok/ali_token.txt"
       },
       "style": {
         "type": "list"
       },
       "timeout": 30,
-      "jar":"./ok.png"
+      "jar":"http://haoxixi.us.kg:1980/d/alist/ok.png"
     },
 		{
      "key":"ThunderShare",
@@ -1143,8 +1143,8 @@
      "changeable":0, 
      "filterable":0, 
      "timeout":60, 
-     "jar":"./pg.jar",
-     "ext":"./lib/tokenm.json$$$./lib/thundershare.txt",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://haoxixi.us.kg:1980/d/alist/lib/thundershare.txt",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -1158,10 +1158,10 @@
 			"searchable": 1,
 			"changeable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1",
-      "jar":"./pg.jar"
+			"ext": "http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.66ss.org$$$null$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
           },
-{"key":"Yscapp","name":"影视车|App","type":3,"api":"csp_Yscapp","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "playerType":1, "playerType":1, "ext":"1","jar":"./pg.jar"},
+{"key":"Yscapp","name":"影视车|App","type":3,"api":"csp_Yscapp","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "playerType":1, "playerType":1, "ext":"1","jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"},
     		{
 			"key": "FirstAid",
 			"name": "🚑 急救知识 ",
@@ -1174,7 +1174,7 @@
 				"type": "rect",
 				"ratio": 3.8
 			},
-      "jar":"./pg.jar"
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
    {
      "key":"盘友圈",
@@ -1182,25 +1182,25 @@
      "type":3,
      "api":"csp_Panyq",
      "timeout":60, 
-     "ext":"./lib/tokenm.json",
-     "jar":"./pg.jar"
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
      },
    {"key":"Xpanpan",
     "name":"小盘盘💾|网盘",
     "type":3,
-    "jar":"./pg.jar",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
     "api":"csp_Xpanpan",
     "quickSearch":1, 
     "changeable":1, 
     "filterable":1, 
     "timeout":60, 
-    "ext":"./lib/tokenm.json$$$https://xpanpan.site$$$null$$$1"},
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://xpanpan.site$$$null$$$1"},
    {
    "key":"drpy_js_磁力熊",
    "name":"🧸磁力熊[js] | 索引",
    "type":3,
-   "api":"./lib/drpy2.min.js",
-   "ext":"./js/cilixiongp.js",
+   "api":"http://haoxixi.us.kg:1980/d/alist/lib/drpy2.min.js",
+   "ext":"http://haoxixi.us.kg:1980/d/alist/js/cilixiongp.js",
    "playerType":"1", 
    "searchable":1, 
    "quickSearch":0, 
@@ -1212,12 +1212,12 @@
      "type":3,
      "api":"csp_Clg",
      "searchable":1,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "quickSearch":1, 
      "changeable":1, 
      "filterable":0, 
      "timeout":60, 
-     "ext":"./lib/tokenm.json$$$https://clg.clgvip1.xyz/$$$noproxy$$$1",
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://clg.clgvip1.xyz/$$$noproxy$$$1",
 		 "style": {
 		 "type": "rect",
 		 "ratio": 1.5
@@ -1227,45 +1227,45 @@
    "key": "hipy_js_采集之王[合]0",
    "name": "🤺 | 采集之王[合]",
    "type": 3,
-   "api": "./drpy_libs/drpy2.min.js",
+   "api": "http://haoxixi.us.kg:1980/d/alist/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "./drpy_js/采集之王[合].js?type=url&params=../json/采集静态.json"
+   "ext": "http://haoxixi.us.kg:1980/d/alist/drpy_js/采集之王[合].js?type=url&params=.http://haoxixi.us.kg:1980/d/alist/json/采集静态.json"
   },
   {
    "key": "hipy_js_采集之王[合]1",
    "name": "🤺 | 采集之王[密]",
    "type": 3,
-   "api": "./drpy_libs/drpy2.min.js",
+   "api": "http://haoxixi.us.kg:1980/d/alist/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 1,
-   "ext": "./drpy_js/采集之王[合].js?type=url&params=../json/采集[密]静态.json"
+   "ext": "http://haoxixi.us.kg:1980/d/alist/drpy_js/采集之王[合].js?type=url&params=.http://haoxixi.us.kg:1980/d/alist/json/采集[密]静态.json"
   },
   {
    "key": "hipy_js_采集之王[合]2",
    "name": "🤺 | 采集之王[合][影]",
    "type": 3,
-   "api": "./drpy_libs/drpy2.min.js",
+   "api": "http://haoxixi.us.kg:1980/d/alist/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "./drpy_js/采集之王[合].js?type=url&params=./json/采集静态.json"
+   "ext": "http://haoxixi.us.kg:1980/d/alist/drpy_js/采集之王[合].js?type=url&params=http://haoxixi.us.kg:1980/d/alist/json/采集静态.json"
   },
   {
    "key": "hipy_js_采集之王[合]3",
    "name": "🤺 |采集之王[密][影]",
    "type": 3,
-   "api": "./drpy_libs/drpy2.min.js",
+   "api": "http://haoxixi.us.kg:1980/d/alist/drpy_libs/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 1,
-   "ext": "./drpy_js/采集之王[合].js?type=url&params=./json/采集[密]静态.json"
+   "ext": "http://haoxixi.us.kg:1980/d/alist/drpy_js/采集之王[合].js?type=url&params=http://haoxixi.us.kg:1980/d/alist/json/采集[密]静态.json"
   },  
 
 #磁力源
@@ -1278,8 +1278,8 @@
     "changeable":1,
     "filterable":1, 
     "timeout":60, 
-    "ext":"./lib/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./lib/wogg.json",
-    "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/wogg.json",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
     },
 		{
       "key":"Bt0",
@@ -1289,9 +1289,9 @@
       "quickSearch":1, 
       "changeable":1, 
       "filterable":1, 
-      "jar": "./pg.jar",
+      "jar": "http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "timeout":60, 
-      "ext":"./lib/tokenm.json$$$null$$$noproxy$$$1",
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$null$$$noproxy$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -1303,11 +1303,11 @@
       "type":3,
       "api":"csp_Gaoqing",
       "quickSearch":1, 
-      "jar": "./pg.jar",
+      "jar": "http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "changeable":1, 
       "filterable":1, 
       "timeout":60, 
-      "ext":"./lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"},
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"},
     {
       "key":"Yinfans",
       "name":"♬🕷🕸 |音范丝|磁力",
@@ -1315,17 +1315,17 @@
       "api":"csp_Gaoqing",
       "quickSearch":1, 
       "changeable":1, 
-      "jar": "./pg.jar",
+      "jar": "http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "filterable":1, 
       "timeout":60, 
-      "ext":"./lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"
+      "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"
       },
     {     
       "key":"高清网",
       "name":"📹高清网 | 4K磁力",
       "type":3,
       "api":"csp_XBPQ",
-      "jar": "./XBPQ.jar",
+      "jar": "http://haoxixi.us.kg:1980/d/alist/XBPQ.jar",
       "ext":{
         "搜索url":"https://gaoqing.la/?s={wd}",
         "简介":"<span style=\"color: #000000;\">◎简*介&&<p><span style=\"color: #ff0000;\">磁力链接：</span></p>",
@@ -1345,7 +1345,7 @@
     "name": "🦊狸云 | 4K磁力",
     "type": 3,
     "api": "csp_XBPQ",
-    "jar": "./lib/XBPQ.jar",
+    "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
     "ext": {
         "搜索url": "https://www.lysvc.cc/?cat=&s={wd}",
         "数组":"class=\"post-item&&class=\"entry-title&&</article> ",
@@ -1365,15 +1365,15 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
-      "ext": "./ok/BT天堂.json",
-      "jar": "./lib/XBPQ.jar"
+      "ext": "http://haoxixi.us.kg:1980/d/alist/ok/BT天堂.json",
+      "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar"
     },
     {
     "key": "BT影视",
     "name": "🧲BT影视",
     "type": 3,
     "api": "csp_XBPQ",
-    "jar": "./lib/XBPQ.jar",
+    "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
     "ext": {
         "跳转数组": "<a&&</a[包含:html#1080p#2160p]",
         "跳转链接": "href=\"&&\"",
@@ -1391,7 +1391,7 @@
      "name":"🧲 | MP4us磁力",
      "type":3,
      "api":"csp_XBPQ",
-     "jar":"./lib/XBPQ.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
      "ext": {
                 "标题":"<font*>&&</font>",
                 "数组":"<li>&&</li>",
@@ -1412,7 +1412,7 @@
     "name": "🍠 | 番薯",
     "type": 3,
     "api": "csp_XBPQ",
-    "jar": "./lib/XBPQ.jar",
+    "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
     "ext": {
         "搜索url": "https://www.uuoozz.com/?s={wd}",
         "搜索数组":"",
@@ -1431,7 +1431,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
-      "jar": "./lib/XBPQ.jar",
+      "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
       "ext":{
         "搜索链接":"https://www.bugutv.org/?cat=&s={wd}",
         "简介":"◎简*介</p>&&</p>",
@@ -1461,7 +1461,7 @@
                 "播放数组": "下载地址</h2>&&</ul>[不包含:网盘]",
                 "播放列表":"<ul>&&</div>[包含:magnet&&不包含:dn=]"
              },
-            "jar": "./lib/XBPQ.jar"
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar"
           },
     {
     "key": "小白",
@@ -1469,7 +1469,7 @@
     "type": 3,
     "api": "csp_XBPQ",
     "playerType": 1,
-    "jar": "./lib/XBPQ.jar",
+    "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
     "ext": {
         "播放数组": "downurl&&</ul>",
         "播放列表": "<a&&</a >",
@@ -1489,8 +1489,8 @@
     "changeable":1, 
     "filterable":1, 
     "timeout":60, 
-    "ext":"./lib/tokenm.json$$$null$$$null$$$1",
-    "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$null$$$null$$$1",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
     },
    {
     "key":"BtSow",
@@ -1502,8 +1502,8 @@
     "changeable":1, 
     "filterable":1, 
     "timeout":60, 
-    "ext":"./lib/tokenm.json$$$null$$$null$$$1",
-    "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$null$$$null$$$1",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
     }, 
 {
   "key":"csp_xpath_yinfans",
@@ -1513,25 +1513,25 @@
   "searchable":1,
   "quickSearch":1,                
   "filterable":1,
-  "ext":"./ok/音范丝.json" 
+  "ext":"http://haoxixi.us.kg:1980/d/alist/ok/音范丝.json" 
   },
     {"key":"csp_MeijuTT",
      "name":"🧲 | MeijuTT",
      "type":3,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "api":"csp_MeijuTT"
      },
- {"key": "csp_Mp4Mov","name": "🧲|Mp4电影","jar":"./磁力.jar","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
- {"key": "csp_New6v","name": "🧲|新6V","jar":"./磁力.jar","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.66ss.org"},
- {"key":"csp_SeedHub","name":"🧲|SeedHub","jar":"./磁力.jar","type":3,"api":"csp_SeedHub","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
- {"key":"csp_KubaCL","name":"🧲|酷吧电影","jar":"./磁力.jar","type":3,"api":"csp_KubaCL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
- {"key":"csp_MeijuTT","name":"🧲|美剧天堂","jar":"./磁力.jar","type":3,"api":"csp_MeijuTT","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
- {"key":"csp_MeijuMi","name":"🧲|美剧迷","jar":"./磁力.jar","type":3,"api":"csp_MeijuMi","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
-    {"key":"drpy_js_MP4US","name":"🧲MP4电影[js]|磁","type":3,"api":"./lib/drpy2.min.js","ext":"./js/mp4us.js", "quickSearch":1, "changeable":1, "timeout":60},
-  	{"key":"drpy_js_酷吧","name":"🧲酷吧[js]|磁","type":3,"api":"./lib/drpy2.min.js","ext":"./js/kuba.js", "quickSearch":1, "changeable":1, "timeout":60},
-		{"key":"BLSGod","name":"🧲BLSGod|磁","type":3,"jar":"./pg.jar","api":"csp_BLSGod","changeable":1, "timeout":60},
-		{"key":"Xunlei8","name":"🧲Xunlei8|磁","type":3,"jar":"./pg.jar","api":"csp_Xunlei8","changeable":1, "timeout":60},
-		{"key":"SeedHub","name":"🧲SeedHub|磁","type":3,"jar":"./pg.jar","api":"csp_SeedHub","changeable":1, "timeout":60}, 
+ {"key": "csp_Mp4Mov","name": "🧲|Mp4电影","jar":"http://haoxixi.us.kg:1980/d/alist/磁力.jar","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
+ {"key": "csp_New6v","name": "🧲|新6V","jar":"http://haoxixi.us.kg:1980/d/alist/磁力.jar","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.66ss.org"},
+ {"key":"csp_SeedHub","name":"🧲|SeedHub","jar":"http://haoxixi.us.kg:1980/d/alist/磁力.jar","type":3,"api":"csp_SeedHub","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+ {"key":"csp_KubaCL","name":"🧲|酷吧电影","jar":"http://haoxixi.us.kg:1980/d/alist/磁力.jar","type":3,"api":"csp_KubaCL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+ {"key":"csp_MeijuTT","name":"🧲|美剧天堂","jar":"http://haoxixi.us.kg:1980/d/alist/磁力.jar","type":3,"api":"csp_MeijuTT","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+ {"key":"csp_MeijuMi","name":"🧲|美剧迷","jar":"http://haoxixi.us.kg:1980/d/alist/磁力.jar","type":3,"api":"csp_MeijuMi","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"drpy_js_MP4US","name":"🧲MP4电影[js]|磁","type":3,"api":"http://haoxixi.us.kg:1980/d/alist/lib/drpy2.min.js","ext":"http://haoxixi.us.kg:1980/d/alist/js/mp4us.js", "quickSearch":1, "changeable":1, "timeout":60},
+  	{"key":"drpy_js_酷吧","name":"🧲酷吧[js]|磁","type":3,"api":"http://haoxixi.us.kg:1980/d/alist/lib/drpy2.min.js","ext":"http://haoxixi.us.kg:1980/d/alist/js/kuba.js", "quickSearch":1, "changeable":1, "timeout":60},
+		{"key":"BLSGod","name":"🧲BLSGod|磁","type":3,"jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar","api":"csp_BLSGod","changeable":1, "timeout":60},
+		{"key":"Xunlei8","name":"🧲Xunlei8|磁","type":3,"jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar","api":"csp_Xunlei8","changeable":1, "timeout":60},
+		{"key":"SeedHub","name":"🧲SeedHub|磁","type":3,"jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar","api":"csp_SeedHub","changeable":1, "timeout":60}, 
     {
       "key": "csp_XYQHikerdyx",
       "name": "🧲|电影港湾",
@@ -1540,7 +1540,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./js/电影港.json","jar":"./磁力.jar"
+      "ext": "http://haoxixi.us.kg:1980/d/alist/js/电影港.json","jar":"http://haoxixi.us.kg:1980/d/alist/磁力.jar"
     },
      {"key":"美剧迷",
     "name":"💃 | 美剧迷",
@@ -1550,15 +1550,15 @@
     "changeable":1, 
     "filterable":1, 
     "timeout":120,
-    "ext":"./lib/tokenm.json$$$https://www.meijumi.xyz/$$$proxy$$$1",
-    "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.meijumi.xyz/$$$proxy$$$1",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
     },   
   	{
 			"key": "Bdys_spider",
 			"name": "🧲哔滴┃磁力",
 			"api": "csp_Bdys01",
 			"type": 3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
 			"filterable": 1,
 			"searchable":0,
 			"quickSearch": 1,
@@ -1574,19 +1574,19 @@
   "searchable": 1,
   "quickSearch": 1,
   "filterable": 1,
-  "jar" : "./ok/cl.jar",
-  "ext":"./ok/cl.json"
+  "jar" : "http://haoxixi.us.kg:1980/d/alist/ok/cl.jar",
+  "ext":"http://haoxixi.us.kg:1980/d/alist/ok/cl.json"
   },
-  {"key": "csp_Mp4Mov1","name": "🎥┃皮四┃磁力","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./ok/cili.jar"},
-  {"key": "csp_New6v1","name": "🎥┃牛威┃磁力","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://www.xb6v.com","jar": "./ok/cili.jar"},
-  {"key": "csp_SeedHub1","name": "🎥┃速盘┃磁力","type": 3,"api": "csp_SeedHub","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "./ok/cili.jar"},
-  {"key": "csp_BLSGod1","name": "🎥┃好的┃磁力","type": 3,"api": "csp_BLSGod","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "./ok/cili.jar"},
-  {"key": "csp_Xunlei8","name": "🎥┃雷吧┃磁力","type": 3,"api": "csp_Xunlei8","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "./ok/cili.jar"},
-  {"key": "csp_XYQHikerAL_4KHDR","name": "🎥┃好清┃磁力","type": 3,"api": "csp_XYQHikerAL","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./js/4KHDR.json","jar": "./ok/cili.jar"},
-  {"key": "csp_XYQHiker_电影港","name": "🎥┃影港┃磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./js/电影港磁力.json","jar": "./ok/cili.jar"},
-  {"key": "csp_XYQHiker_BT天堂","name": "🎥┃天堂┃磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./js/BT天堂.json","jar": "./ok/cili.jar"},
-  {"key": "csp_XYQHiker_极影网","name": "🎥┃极影┃磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./js/极影网.json","jar": "./ok/cili.jar"},
-  {"key": "csp_XYQHiker_高清MP4","name": "🎥┃好楚┃磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./js/高清MP4.json","jar": "./ok/cili.jar"},
+  {"key": "csp_Mp4Mov1","name": "🎥┃皮四┃磁力","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"http://haoxixi.us.kg:1980/d/alist/ok/cili.jar"},
+  {"key": "csp_New6v1","name": "🎥┃牛威┃磁力","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://www.xb6v.com","jar": "http://haoxixi.us.kg:1980/d/alist/ok/cili.jar"},
+  {"key": "csp_SeedHub1","name": "🎥┃速盘┃磁力","type": 3,"api": "csp_SeedHub","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "http://haoxixi.us.kg:1980/d/alist/ok/cili.jar"},
+  {"key": "csp_BLSGod1","name": "🎥┃好的┃磁力","type": 3,"api": "csp_BLSGod","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "http://haoxixi.us.kg:1980/d/alist/ok/cili.jar"},
+  {"key": "csp_Xunlei8","name": "🎥┃雷吧┃磁力","type": 3,"api": "csp_Xunlei8","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "http://haoxixi.us.kg:1980/d/alist/ok/cili.jar"},
+  {"key": "csp_XYQHikerAL_4KHDR","name": "🎥┃好清┃磁力","type": 3,"api": "csp_XYQHikerAL","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://haoxixi.us.kg:1980/d/alist/js/4KHDR.json","jar": "http://haoxixi.us.kg:1980/d/alist/ok/cili.jar"},
+  {"key": "csp_XYQHiker_电影港","name": "🎥┃影港┃磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://haoxixi.us.kg:1980/d/alist/js/电影港磁力.json","jar": "http://haoxixi.us.kg:1980/d/alist/ok/cili.jar"},
+  {"key": "csp_XYQHiker_BT天堂","name": "🎥┃天堂┃磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://haoxixi.us.kg:1980/d/alist/js/BT天堂.json","jar": "http://haoxixi.us.kg:1980/d/alist/ok/cili.jar"},
+  {"key": "csp_XYQHiker_极影网","name": "🎥┃极影┃磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://haoxixi.us.kg:1980/d/alist/js/极影网.json","jar": "http://haoxixi.us.kg:1980/d/alist/ok/cili.jar"},
+  {"key": "csp_XYQHiker_高清MP4","name": "🎥┃好楚┃磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://haoxixi.us.kg:1980/d/alist/js/高清MP4.json","jar": "http://haoxixi.us.kg:1980/d/alist/ok/cili.jar"},
 
 #优质
     {
@@ -1599,7 +1599,7 @@
             "filterable": 0,
             "timeout": 60,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext": {
                 "主页url": "https://xiaoxintv.com",
                 "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
@@ -1626,7 +1626,7 @@
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "filterable": 1,
             "ext": {
                 "数组": "<a target=\"_blank&&</p>",
@@ -1655,7 +1655,7 @@
      "searchable":1,
      "quickSearch":1,
      "filterable":1, 
-     "jar":"./ok.png",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/ok.png",
      "timeout": 10
      },
     {
@@ -1667,15 +1667,15 @@
       "quickSearch": 1,
       "timeout": 60,
       "filterable": 1,      
-      "jar": "./lib/XBPQ.jar",
-      "ext": "./py/圣城1080.json"
+      "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
+      "ext": "http://haoxixi.us.kg:1980/d/alist/py/圣城1080.json"
     },
     {
             "key": "卫总影院",
             "name": "卫总正能量🎬",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./xbpq.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/xbpq.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -1705,7 +1705,7 @@
       "quickSearch": 1,
       "timeout": 60,
       "filterable": 1,      
-      "jar": "./lib/XBPQ.jar",
+      "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
       "ext": {
         "搜索url": "https://www.leshizy1.com//index.php/ajax/suggest?mid=1&wd={wd}&limit=500",
         "线路标题": "<h1>播放类型：&&</h1>",
@@ -1723,8 +1723,8 @@
             "key": "喵次元[APP]",
             "name": "🤺💯js喵次元 ┃ 影视",
             "type": 3,
-            "api": "./drpy/drpy2.min.js",
-            "ext": "./js/喵次元.js"
+            "api": "http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.min.js",
+            "ext": "http://haoxixi.us.kg:1980/d/alist/js/喵次元.js"
         },
     {
     "key": "csp_可可影视",
@@ -1734,7 +1734,7 @@
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 1,    
-    "jar":"./XBPQ.jar",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/XBPQ.jar",
     "ext": {
         "图片": "data-original=\"&&\"[替换:/vod1>>https://vres.a357899.cn/vod1]",
         "线路数组":"<a&&</a>[排序:独家>蓝光8>FF线路>蓝光7>蓝光2>蓝光2-1>蓝光2-2>XL线路>HN线路>SB线路]",
@@ -1748,7 +1748,7 @@
     "name": "💞┃毒蛇┃💠",
     "type": 3,
     "api": "csp_XBPQ",
-    "jar": "./XBPQ.jar",
+    "jar": "http://haoxixi.us.kg:1980/d/alist/XBPQ.jar",
     "ext": {
         "数组":"class=\"module-item\">&&</div>",
         "图片": "data-original=\"&&\"[替换:/vod1>>https://vres.a357899.cn/vod1]",
@@ -1768,10 +1768,10 @@
      "searchable":1,
      "quickSearch":1,
      "filterable":1,
-     "jar":"./XBPQ.jar",
-     "ext":"./ok/电影先生.json"
+     "jar":"http://haoxixi.us.kg:1980/d/alist/XBPQ.jar",
+     "ext":"http://haoxixi.us.kg:1980/d/alist/ok/电影先生.json"
      },
-     {"key":"libhd","name":"🔴libhd ┃ 美剧","type":3,"jar":"./lib/XBPQ.jar","api":"csp_XBPQ",
+     {"key":"libhd","name":"🔴libhd ┃ 美剧","type":3,"jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar","api":"csp_XBPQ",
             "ext": {
                 "分类": "电影$1#剧集$2#综艺$3#动漫$4",
                 "搜索url": "https://www.libhd.com/vodsearch/{wd}----------{pg}---.html",
@@ -1800,14 +1800,14 @@
     "quickSearch": 1, 
     "filterable": 1, 
     "changeable": 1,
-    "jar":"./pg.jar"
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
   },
   {
             "key": "秋霞电影天堂",
             "name": "秋霞|电影天堂",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -1838,7 +1838,7 @@
       "name": "傻逼❤️1080",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar":"./lib/XBPQ.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
       "ext": {
         "分类": "短剧&恐怖片&动作片&科幻片&战争片&国产剧&喜剧片&爱情片&综艺&欧美剧&港台剧&日韩剧",
         "分类值": "14&42&22&26&36&25&30&23&69&15&16&62",
@@ -1880,7 +1880,7 @@
       "type": 3, 
       "playerType": 2,
       "api": "csp_XBPQ", 
-      "jar": "./XBPQ.jar", 
+      "jar": "http://haoxixi.us.kg:1980/d/alist/XBPQ.jar", 
       "ext": { 
       "分类url": "https://www.netflixgc.com/vodtype/{cateId}-{catePg}.html", 
       "分类": "電影$1#電視劇$2#漫劇$3", 
@@ -1894,7 +1894,7 @@
      "type": 3, 
      "api": "csp_Ikanbot", 
      "searchable": 1,
-     "jar": "./pg.jar", 
+     "jar": "http://haoxixi.us.kg:1980/d/alist/pg.jar", 
      "quickSearch": 1, 
      "filterable": 1, 
      "changeable": 1 , 
@@ -1905,7 +1905,7 @@
       "name":"❌ | no视频",
       "type":3,
       "api":"csp_XBPQ",
-      "jar":"./lib/XBPQ.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
       "ext":{
     "状态":"\"post-date updated\">&&</span>",
     "数组":"\"video-item&&</h3>",
@@ -1925,7 +1925,7 @@
 			"api": "csp_Kugou",
 			"searchable": 1,
 			"changeable": 0,
-      "jar":"./pg.jar"
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
       {
             "key": "freeMusic",
@@ -1933,7 +1933,7 @@
             "type": 3,
             "searchable": 1,
             "changeable": 0,
-            "api": "./js/liumingye_music_open.js"
+            "api": "http://haoxixi.us.kg:1980/d/alist/js/liumingye_music_open.js"
         },
         {
             "key": "netease_music",
@@ -1941,7 +1941,7 @@
             "type": 3,
             "searchable": 1,
             "changeable": 0,
-            "api": "./js/netease_music_open.js"
+            "api": "http://haoxixi.us.kg:1980/d/alist/js/netease_music_open.js"
         },
     {
       "key": "原创",
@@ -1973,7 +1973,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "./py/nmys.json"
+      "ext": "http://haoxixi.us.kg:1980/d/alist/py/nmys.json"
     },
     {
       "key": "酷看",
@@ -2015,9 +2015,9 @@
 			"searchable": 0,
 			"changeable": 1,
       "ext":"https://www.duanjutv.icu",
-      "jar":"./pg.jar"
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
-      {"key":"短剧tv","name":"🔴短剧tv|cc","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
+      {"key":"短剧tv","name":"🔴短剧tv|cc","type":3,"api":"csp_XBPQ","jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
       "ext":{
         "搜索链接":"http://www.duanjutv.cc/vodsearch/{wd}----------{pg}---.html",
         "线路标题":"<h3*>&&</h3>",
@@ -2052,7 +2052,7 @@
     "name":"🥇榜一┃短剧",
     "type":3,
     "api":"csp_XBPQ",
-    "jar":"./lib/XBPQ.jar",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
     "ext":
     {
     "分类":"逆袭短剧$1#甜宠短剧$3#虐恋短剧$5#穿越短剧$7#重生短剧$9#都市短剧$11#现代言情短剧$13#古装短剧$15#古代言情短剧$17#战神短剧$19#神医短剧$21#神豪短剧$23#超能短剧$25#萌宝短剧$27#复仇短剧$29#脑洞短剧$31#赘婿短剧$33#玄幻短剧$35#热血短剧$37#其他短剧$39",
@@ -2064,7 +2064,7 @@
                 "name": "无忧🏄‍♂️短剧",
                 "type": 3,
                 "api": "csp_XBPQ",
-                "jar": "./lib/XBPQ.jar",
+                "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
                 "ext": {
                        "分类": "逆袭$1#甜宠$3#虐恋$5#穿越$7#重生$9#都市$11#现代言情$13#古装$15#古装言情$17#战神$19#神医$21#神豪$23#超能$25#萌宝$27#复仇$29#脑洞$31#赘婿$33#玄幻$35#热血$37#其他$39",
                         "分类url": "http://5uduanju.com/vodshow/{cateId}--------{catePg}---.html"
@@ -2079,9 +2079,9 @@
    "changeable":0,
    "filterable":0,
    "timeout":60,
-   "ext":"./lib/tokenm.json$$$./lib/quarkshare_TZ.txt",
+   "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://haoxixi.us.kg:1980/d/alist/lib/quarkshare_TZ.txt",
    "style":{"type":"list","ratio":1.1},
-   "jar":"./pg.jar"
+   "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
    },
 
 #采集🚁
@@ -2097,46 +2097,46 @@
       "key": "cesi",
       "name": "秒播|4K",
       "type": 3,
-      "api":"./drpy_libs/drpy2.min.js",
+      "api":"http://haoxixi.us.kg:1980/d/alist/drpy_libs/drpy2.min.js",
     "searchable":1,
     "changeable":0,
-      "ext":"./js/?id=完美"
+      "ext":"http://haoxixi.us.kg:1980/d/alist/js/?id=完美"
     },
     {
       "key": "caihua",
       "name": "采花|4K",
       "type": 3,
-      "api":"./drpy_libs/drpy2.min.js",
+      "api":"http://haoxixi.us.kg:1980/d/alist/drpy_libs/drpy2.min.js",
     "searchable":1,
     "changeable":0,
-      "ext":"./js/?id=文采"
+      "ext":"http://haoxixi.us.kg:1980/d/alist/js/?id=文采"
     },
     {
       "key": "youyoujs",
       "name": "悠悠|弹幕",
       "type": 3,
-      "api":"./drpy_libs/drpy2.min.js",
+      "api":"http://haoxixi.us.kg:1980/d/alist/drpy_libs/drpy2.min.js",
      "searchable":1,
     "changeable":0,
-      "ext":"./js/?id=悠悠"
+      "ext":"http://haoxixi.us.kg:1980/d/alist/js/?id=悠悠"
     },
  {
       "key": "xiaoxiongjs",
       "name": "小熊|弹幕",
       "type": 3,
-      "api":"./drpy_libs/drpy2.min.js",
+      "api":"http://haoxixi.us.kg:1980/d/alist/drpy_libs/drpy2.min.js",
     "searchable":1,
     "changeable":0,
-      "ext":"./js/?id=小熊"
+      "ext":"http://haoxixi.us.kg:1980/d/alist/js/?id=小熊"
     },
   {
       "key": "jurenjs",
       "name": "巨人|弹幕",
       "type": 3,
-      "api":"./drpy_libs/drpy2.min.js",
+      "api":"http://haoxixi.us.kg:1980/d/alist/drpy_libs/drpy2.min.js",
      "searchable":1,
     "changeable":0,
-      "ext":"./js/?key=gunnimadeshabixiaotou&id=巨人"
+      "ext":"http://haoxixi.us.kg:1980/d/alist/js/?key=gunnimadeshabixiaotou&id=巨人"
     },
     {
             "key": "php_madou",
@@ -2161,7 +2161,7 @@
           "changeable":1, 
           "filterable":0, 
           "timeout":60, 
-          "jar":"./pg.jar",
+          "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
           "ext":"https://netflav5.com$$$proxy",
           "style": {
           "type": "rect",
@@ -2173,7 +2173,7 @@
           "name":"🤰国产┃厂商",
           "type":3,
           "api":"csp_XBPQ",
-          "jar":"./lib/XBPQ.jar",
+          "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
           "ext":{"直接播放":"1",
           "分类url":"https://xn---gccpsscom-4s2r687bes0e8b8dk65a.guochanps.com/index-{cateId}-{catePg}.html",
           "分类":"麻豆$1#蜜桃$2#swag$3#果冻$4#天美$5#精东$6#星空$7#扣扣$8#乐播$9#兔子先生$10#皇家华人$11#SA国际$12",
@@ -2186,7 +2186,7 @@
             "name": "✨JAVMMM25✨",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext": {
             "数组": "class=\"col-6 col- md-4 col-lg-3 col-xl-3\">&&class=\"video-block video-with-trailer",
     "图片": "data-src=\"&&\"",
@@ -2204,11 +2204,11 @@
             "name": "✨农夫与少妇✨",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./lib/农夫与少妇.json"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/lib/农夫与少妇.json"
         },
        {
             "key": "✨R撸巴✨",
@@ -2217,7 +2217,7 @@
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "filterable": 1,
             "ext": {
                 "数组": "img-box cover-md\"&&<p class=\"sub-title\">",
@@ -2236,7 +2236,7 @@
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "filterable": 1,
             "ext": {
                 "数组": "<a&&</a>",
@@ -2251,7 +2251,7 @@
             "key": "高清无水印",
             "name": "✨高清无水印✨",
             "type": 3,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "api": "csp_XBPQ",
                 "style": {
                 "type": "rect",
@@ -2273,7 +2273,7 @@
             "name": "🔞avge",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "style": {
                 "type": "rect",
                 "ratio": 1.5
@@ -2294,7 +2294,7 @@
             "name": "💗┃💋RJAV┃💠",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "style": {
                 "type": "rect",
                 "ratio": 1.77
@@ -2317,7 +2317,7 @@
             "name": "🔞JAVSB",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/jar/XBPQ.jar",
             "ext": {
                 "主页url": "https://jav.sb/",
                 "直接播放": "1",
@@ -2334,7 +2334,7 @@
             "name": "🔞13AV",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext": {
                 "直接播放": "1",
                 "嗅探词": "index.m3u8",
@@ -2351,7 +2351,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext": {
                 "数组": "img x-cloak&&/a></div></div>[不包含:item.title]",
                 "图片": "class=\"lozad*data-src=\"&&\"",
@@ -2369,7 +2369,7 @@
             "name": "✨🔞SOAV✨",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "style": {
                 "type": "rect",
                 "ratio": 1.5
@@ -2392,7 +2392,7 @@
             "name": "✨Bi8TV✨",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
                 "style": {
                 "type": "rect",
                 "ratio": 1.485
@@ -2413,7 +2413,7 @@
             "name": "🔞微密猫",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext": {
                 "主页url": "https://maobao.vip/",
                 "首页": "无圣光视频$wushebgguang/无圣光视频",
@@ -2441,7 +2441,7 @@
              "key": "Javmulu",
               "name": "🔞Jav目录大全(磁力)",
               "type": 3,
-              "jar": "./lib/XBPQ.jar",
+              "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
               "api": "csp_XBPQ",
               "style": {
               "type": "rect","ratio": 0.75},
@@ -2466,7 +2466,7 @@
             "name": "💃👠 | 亲亲表姐",
             "type": 3,
             "api": "csp_XBPQ",
-             "jar": "./lib/XBPQ.jar",
+             "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "style": {
                 "type": "rect",
                 "ratio": 1.5
@@ -2487,7 +2487,7 @@
             "name": "AVTOP10",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/XBPQ.jar",
             "ext": {
                 "主页url": "https://avtop10.com/",
                 "图片": "data-original=\"&&\"",
@@ -2507,7 +2507,7 @@
             "name": "🔞soporn(T)",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext": {
                 "直接播放": "1",
                 "嗅探词": "index.m3u8",
@@ -2520,7 +2520,7 @@
             "name": "💗┃💋新91┃💠",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "style": {
                 "type": "rect",
                 "ratio": 1.5
@@ -2543,7 +2543,7 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "jar":"./lib/XBPQ.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
       "filterable": 1,
    "style":{ "type":"rect", "ratio":1.33 },
       "ext": {
@@ -2558,7 +2558,7 @@
             "name": "💕555电影",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext": {
                 "主页url": "https://5srn5.com/",
                 "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
@@ -2574,7 +2574,7 @@
                 "分类": "电影$1#连续剧$2#综艺$3#动漫$4#福利$124"
             }
         },
-    {"key":"黄色仓","name":"🔞黄色仓库","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar","style":{"ratio":1.7},
+    {"key":"黄色仓","name":"🔞黄色仓库","type":3,"api":"csp_XBPQ","jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar","style":{"ratio":1.7},
             "ext": {
         "搜索链接":"http://oy.oyxx-1.eu.org/hs1.php?u=/vodsearch/{wd}----------{pg}---.html",
         "主页url":"http://oy.oyxx-1.eu.org/hs1.php",
@@ -2590,14 +2590,14 @@
      "key":"Taohuazu",
      "name":"💖💃 | 桃花族",
      "type":3,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "api":"csp_Taohuazu",
      "searchable":1,
      "quickSearch":1, 
      "changeable":1, 
      "filterable":0, 
      "timeout":60, 
-     "ext":"./lib/tokenm.json$$$http://02thz.com/$$$http://haoxixi.us.kg:5777",
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://02thz.com/$$$http://haoxixi.us.kg:5777",
      "style": {
      "type": "rect",
      "ratio": 1.33
@@ -2614,20 +2614,20 @@
       "ext":"http://supjav.com/",
       "style": {"type": "rect","ratio": 1.597
       },
-      "jar": "./xc0126.jar"
+      "jar": "http://haoxixi.us.kg:1980/d/alist/xc0126.jar"
     },
    {
      "key":"SeHuaTang",
      "name":"💃色花堂 | 网盘",
      "type":3,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "api":"csp_SeHuaTang",
      "searchable":1,
      "quickSearch":1, 
      "changeable":1, 
      "filterable":0, 
      "timeout":60,
-     "ext": "./lib/tokenm.json$$$1$$$null$$$http://haoxixi.us.kg:5777",
+     "ext": "http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$1$$$null$$$http://haoxixi.us.kg:5777",
      "style": {
      "type": "rect",
      "ratio": 1.5
@@ -2641,36 +2641,36 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext":"./py/女优.json",
-        "jar":"./lib/XBPQ.jar"
+        "ext":"http://haoxixi.us.kg:1980/d/alist/py/女优.json",
+        "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar"
         },
     {"key":"csp_Netflav",
      "name":"💃👠 | Netflav",
      "type":3,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "api":"csp_Netflav"
      },
     {"key":"csp_AvTime",
      "name":"💃👠 | AvTime",
      "type":3,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "api":"csp_AvTime"
      },
      {"key":"csp_Eighteen",
       "name":"💃👠 | ighteen",
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "type":3,
       "api":"csp_Eighteen"
       },
     {"key":"csp_Gxqvlj",
      "name":"💃👠 | Gxqvlj",
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "type":3,
      "api":"csp_Gxqvlj"
      },
    {"key":"csp_Zuise",
     "name":"💃👠 | Zuise",
-    "jar":"./pg.jar",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
     "type":3,
     "api":"csp_Zuise"
     },
@@ -2678,7 +2678,7 @@
     "name":"💃👠top888|fq",
     "type":3,
     "api":"csp_Top888",
-    "jar":"./pg.jar",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
     "style":{"type":"rect","ratio":1.6}
     },
     {
@@ -2697,13 +2697,13 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./py/黑料啊.py"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/py/黑料啊.py"
         },
         {
             "key": "py_黑料②",
             "name": "💃 | 黑料网(py)影视版",
             "type": 3,
-            "api": "./py/黑料啊.py",
+            "api": "http://haoxixi.us.kg:1980/d/alist/py/黑料啊.py",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 1,
@@ -2715,7 +2715,7 @@
         "api": "csp_XBPQ",
         "searchable": 1,
         "quickSearch": 1,
-        "jar":"./lib/XBPQ.jar",
+        "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
         "filterable": 1,
         "ext":{
                 "直接播放": "1",
@@ -2732,14 +2732,14 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext":"./ok/黑料.json",
-        "jar":"./lib/XBPQ.jar"
+        "ext":"http://haoxixi.us.kg:1980/d/alist/ok/黑料.json",
+        "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar"
         },
         {
       "key": "csp_Gxqvlj",
       "name": "💃┃Gxqvlj┃需挂梯",
       "type":3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "api": "csp_Gxqvlj",
       "searchable":1,            
       "changeable":0
@@ -2748,7 +2748,7 @@
             "key": "Zuise",
             "name": "💃👠 | 最色",
             "type": 3,
-            "jar":"./pg.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
             "api": "csp_Zuise",
             "quickSearch": 1,
             "changeable": 1,
@@ -2759,7 +2759,7 @@
             "key": "csp_AvTime1",
             "name": "💃👠 | AvTime1",
             "type":3,
-            "jar":"./pg.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
             "api": "csp_AvTime",
             "searchable":1,            
             "changeable":1,
@@ -2770,7 +2770,7 @@
     {"key":"Xojav",
      "name":"💃pg | XOJav",
      "type":3,
-     "jar":"./pg.jar",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
      "api":"csp_Xojav",
      "searchable":1,
      "quickSearch":1, 
@@ -2787,14 +2787,14 @@
     "key":"csp_JavDb",
     "name":"🧲😚JavDb365",
     "type":3,
-    "jar":"./pg.jar",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
     "api":"csp_JavDb",
     "searchable":1,
     "quickSearch":1,
     "filterable":1,
     "changeable":0,
     "timeout":1801,
-    "ext": "http://haoxixi.us.kg:5777$$$./lib/tokenm.json$$$https://javdb365.com/$$$1"
+    "ext": "http://haoxixi.us.kg:5777$$$http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://javdb365.com/$$$1"
     },
         {
             "key":"csp_JavBus",
@@ -2807,8 +2807,8 @@
             "changeable":0,
             "timeout":60,
             "style":{ "type":"rect", "ratio":1.33 },
-            "jar": "./pg.jar",
-            "ext": "http://haoxixi.us.kg:5777$$$./lib/tokenm.json$$$https://www.busdmm.art$$$1"
+            "jar": "http://haoxixi.us.kg:1980/d/alist/pg.jar",
+            "ext": "http://haoxixi.us.kg:5777$$$http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.busdmm.art$$$1"
     },
         {
             "key": "18AV",
@@ -2817,7 +2817,7 @@
             "api": "csp_Eighteen",
             "searchable": 0,
             "recordable": 0,
-            "jar": "./pg.jar"
+            "jar": "http://haoxixi.us.kg:1980/d/alist/pg.jar"
         },
         {
             "key":"av188",
@@ -2830,15 +2830,15 @@
             "changeable":0,
             "timeout":60,
             "style":{ "type":"rect", "ratio":1.485 },
-            "jar": "./pg.jar",
-            "ext": "./lib/tokenm.json$$$1"
+            "jar": "http://haoxixi.us.kg:1980/d/alist/pg.jar",
+            "ext": "http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$1"
     },
      {"key": "av1881","name": "🔞Netflav","playUrl": "json:http://127.0.0.1:10072/parse/?thread=0&proxy=&url=","type": 3,"api": "csp_Netflav","searchable": 0,"changeable": 0 ,"categories": ["無碼","有碼","女優","最受歡迎","中文字幕","類别"]},
     {
       "key": "Doll",
       "name": "💃👠 ┃ Doll┃需挂梯",
       "type": 3, 
-      "jar":"./pg.jar",     
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",     
       "style": {
         "type": "rect",
         "ratio": 1.485
@@ -2853,7 +2853,7 @@
       "key": "Hanime",
       "name": "💃👠 ┃ 里番┃需挂梯",
       "type": 3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "style": {
         "type": "rect",
         "ratio": 1.485
@@ -2868,7 +2868,7 @@
       "key": "Jable",
       "name": "💃👠PG┃Jable┃需挂梯",
       "type": 3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "api": "csp_Jable",
       "changeable": 0,
       "quickSearch": 1,
@@ -2879,7 +2879,7 @@
       "key": "MissAV",
       "name": "💃👠┃MissAV┃需挂梯",
       "type": 3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "api": "csp_Miss",
       "changeable": 0,
       "quickSearch": 1,
@@ -2890,7 +2890,7 @@
       "key": "Cable",
       "name": "💃👠┃CableAV┃需挂梯",
       "type": 3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
       "api": "csp_Cable",
       "searchable": 1,
       "quickSearch": 1,
@@ -2903,7 +2903,7 @@
      "name": "💃👠XVideoS中文版 | xVDiZhi.com", 
      "type": 3,
      "api": "csp_Xv",
-     "jar": "./Xv.jar",
+     "jar": "http://haoxixi.us.kg:1980/d/alist/Xv.jar",
      "searchable": 1,
      "quickSearch": 1,
      "filterable": 1,
@@ -2920,8 +2920,8 @@
      "changeable": 1,
      "filterable": 1,
      "timeout": 600,
-     "jar":"./lib/XBPQ.jar", 
-     "ext": "./lib/top888.json"
+     "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar", 
+     "ext": "http://haoxixi.us.kg:1980/d/alist/lib/top888.json"
      },
      {
             "key": "小幺女|床吧",
@@ -2931,7 +2931,7 @@
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "filterable": 1,
             "ext": {
                 "站名": "小幺女",
@@ -2957,7 +2957,7 @@
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "filterable": 1,
             "ext": {
                 "主页url": "https://www.ttsp.tv/vodtype/vipfuli.html",
@@ -2975,7 +2975,7 @@
       "name": "💕C影院",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jar/XBPQ.jar",
+      "jar": "http://haoxixi.us.kg:1980/d/alist/jar/XBPQ.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -2994,7 +2994,7 @@
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "filterable": 1,
             "ext": {
                 "站名": "四虎影院",
@@ -3026,7 +3026,7 @@
       "name":"💃🧲 | u9a9",
       "type":3,
       "api":"csp_XBPQ",
-      "jar":"./lib/XBPQ.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
       "style":{"type":"list"},
       "ext": {
         "搜索url":"https://u9a9b.cc/?type=1&search={wd}&p={pg}",
@@ -3045,7 +3045,7 @@
         "name":"🔞u9a9|磁力",
         "type":3,
         "api":"csp_XBPQ",
-        "jar":"./lib/XBPQ.jar",
+        "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
         "style":{"ratio":1.7},
         "ext": {
         "搜索url":"https://u9a9b.cc/?type=2&search={wd}&p={pg}",
@@ -3065,7 +3065,7 @@
       "name": "💃 | 糖心次元",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./lib/XBPQ.jar",
+      "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
       "style": {"ratio": 1.7},
       "ext":  {
         "数组":"<li&&</li>",
@@ -3084,7 +3084,7 @@
             "name":"💃👠色花堂 | XBPQ",
             "type":3,
             "api":"csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext":{
           "数组":"<div class=\"img-box cover-md\">&&</h6>",
 "图片":"data-original=\"&&\"",
@@ -3113,7 +3113,7 @@
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "filterable": 1,
             "ext": {
                 "数组": "class=\"stui-vodlist__thumb lazyload\"&&</a",
@@ -3130,7 +3130,7 @@
                 "分类链接": "https://vip.woaav.online:13097/vodshow/{cateId}--------{catePg}---.html"
             }
         },
-    {"key":"色花堂","name":"💃👠色花堂|在线","type":3,"api":"csp_XBPQ","changeable":0,"style":{"type":"rect","ratio":1.6},"jar":"./lib/XBPQ.jar",
+    {"key":"色花堂","name":"💃👠色花堂|在线","type":3,"api":"csp_XBPQ","changeable":0,"style":{"type":"rect","ratio":1.6},"jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
       "ext":{
         "二次截取": "\"pb-3 pb-e-lg-40\"&&\"site-footer\"+\"col-6 col-sm-4 col-lg-3\"",
         "数组":"\"video-img-box &&\"col-6 col-sm-4 col-lg-3\"",
@@ -3153,7 +3153,7 @@
     "name":"💃👠天美|doll",
     "type":3,
     "api":"csp_XBPQ",
-    "jar":"./lib/XBPQ.jar",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
     "style":{"ratio":1.7},
     "ext": {
     "搜索链接":"http://www.xbyc.cc/index.php/vod/search/page/{pg}/wd/{wd}.html",
@@ -3171,7 +3171,7 @@
           "name":"💃👠 | 黄色仓库",
           "type":3,
           "api":"csp_XBPQ",
-          "jar":"./lib/XBPQ.jar",
+          "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
           "style":{"ratio":1.7},
           "ext":  {
         "搜索url":"http://oy.oyxx-1.eu.org/hs1.php?u=/vodsearch/{wd}----------{pg}---.html",
@@ -3187,7 +3187,7 @@
             "key": "222av",
             "name": "💃👠XBPQ | 222av.me",
             "type": 3,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
             "playerType": 1,
@@ -3212,7 +3212,7 @@
     "name": "💗┃💋3D┃💠",
     "type": 3,
     "api": "csp_XBPQ",
-    "jar": "./lib/XBPQ.jar",
+    "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
     "ext": {
         "主页url": "https://3d-hentai.org/",
         "数组": "class=\"video-block&&class=\"video-datas\">&&</div",
@@ -3231,7 +3231,7 @@
             "name": "💃👠玩偶姐姐|XBPQ",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "timeout":60,
             "ext": {
                     "直接播放":"1",
@@ -3245,7 +3245,7 @@
             "key": "jable",
             "name": "💃👠XBPQ | jable",
             "type": 3,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -3285,13 +3285,13 @@
      "搜索url":"https://njav.xyz/zh/search?keyword={wd}",
      "分类url":"https://njav.xyz/zh/{cateId}?page={catePg}",
      "分类":"全新上市$new-release#最近更新$recent-update#推荐影片$recommended#vr影片$vr#今日热门$oday-hot#本周热门$weekly-hot#本月热门$monthly-hot"},
-     "jar":"./lib/XBPQ.jar"
+     "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar"
      },
         {
             "key": "AV搜",
             "name": "❌A&V搜",
             "type": 3,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "api": "csp_XBPQ",
             "ext":{  
             "请求头": "手机",
@@ -3319,7 +3319,7 @@
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
 "playerType": 2,
 "api": "csp_XBPQ",
 "ext": {
@@ -3346,31 +3346,31 @@
             "key": "youshou",
             "name": "右手影院",
             "type": 3,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "api": "csp_XBPQ",
-            "ext":"./py/右手影院.json"
+            "ext":"http://haoxixi.us.kg:1980/d/alist/py/右手影院.json"
         },
         { 
             "key": "njav",
             "name": "njav.tv",
             "type": 3,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "api": "csp_XBPQ",
-            "ext":"./py/njav.json"
+            "ext":"http://haoxixi.us.kg:1980/d/alist/py/njav.json"
         },
           {
             "key": "视色",
             "name": "💃👠 | 视色(T)",
             "type": 3,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
@@ -3399,7 +3399,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext":{
             "分类":"今日吃瓜$6#今日热搜$7#热门大瓜$8#黑料历史$10#独家爆料$9",
             "分类url":"https://yt6d.yilecdi.com/category/{cateId}/{catePg}.html",
@@ -3412,7 +3412,7 @@
           "name":"💃👠 | 视色",
           "type":3,
           "api":"csp_XBPQ",
-          "jar":"./lib/XBPQ.jar",
+          "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
           "searchable":1,
           "quickSearch":1,
           "filterable":1,
@@ -3440,7 +3440,7 @@
             "key": "追影",
             "name": "🏇 | 追影",
             "type": 3,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -3458,32 +3458,32 @@
             "key": "玄天",
             "name": "玄天影院",
             "type": 3,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "api": "csp_XBPQ",
-            "ext":"./py/玄天影院.json"
+            "ext":"http://haoxixi.us.kg:1980/d/alist/py/玄天影院.json"
         },
      { 
             "key": "爱乐",
             "name": "爱乐影院",
             "type": 3,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "api": "csp_XBPQ",
-            "ext":"./py/爱乐影院.json"
+            "ext":"http://haoxixi.us.kg:1980/d/alist/py/爱乐影院.json"
         },
         { 
             "key": "kanke",
             "name": "Kanke(看客)",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -3498,13 +3498,13 @@
             "name": "naikan(耐看)",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
             "playerType": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext":"./py/耐看.json"
+            "ext":"http://haoxixi.us.kg:1980/d/alist/py/耐看.json"
         },
      {
             "key": "ppp",
@@ -3513,7 +3513,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_XBPQ",
-            "jar": "./XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/XBPQ.jar",
             "ext": {
                 "直接播放": "1",
                 "嗅探词": ".m3u8",
@@ -3534,7 +3534,7 @@
       "name":"💃👠 | ppp-fq",
       "type":3,
       "api":"csp_XBPQ",
-      "jar":"./lib/XBPQ.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
       "style":{"type":"rect","ratio":1.6},
             "ext": {
                 "直接播放": "1",
@@ -3551,7 +3551,7 @@
             "searchable":1,
             "quickSearch":1,
             "filterable":1,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "api":"csp_XBPQ",
             "ext":
             {
@@ -3574,8 +3574,8 @@
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 1,
-    "ext": "./ok/茶杯壶.json",
-    "jar": "./lib/XBPQ.jar"
+    "ext": "http://haoxixi.us.kg:1980/d/alist/ok/茶杯壶.json",
+    "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar"
    },
    {
             "key": "优优阁",
@@ -3586,7 +3586,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext": {
             "分类": "亚洲$yazhou#欧美$oumei#国产$3guochan#动漫$dongman#伦理$lunli",
 "分类url":"https://www.uuge5.com/vodtype/{cateId}/area/{area}/lang/{lang}/page/{catePg}/year/{year}/"
@@ -3596,18 +3596,18 @@
             "key": "91电影",
             "name": "💃 | 91电影网",
             "type": 3,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./ok/91电影网.json"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/ok/91电影网.json"
         },
      {
             "key": "2028天天看",
             "name": "💃 | 2028天天看(H)",
             "type": 3,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "playerType": 0,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -3627,7 +3627,7 @@
             "key": "光棍H",
             "name": "💃 | 光棍影院(H)",
             "type": 3,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "api": "csp_XBPQ",
             "playerType": 2,
             "searchable": 1,
@@ -3655,7 +3655,7 @@
             "name": "纤纤影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -3696,7 +3696,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext": {
                 "主页url": "https://m.xian372.top/L/26.html",
                 "请求头": "手机",
@@ -3733,7 +3733,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "ext":{
             "分类":"今日吃瓜$6#今日热搜$7#热门大瓜$8#黑料历史$10#独家爆料$9",
              "分类url":"https://yt6d.yilecdi.com/category/{cateId}/{catePg}.html",
@@ -3747,7 +3747,7 @@
             "type": 3,
             "changeable": 1,
             "searchable": 1,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/lib/XBPQ.jar",
             "quickSearch": 1,
             "filterable": 1,
             "api": "csp_XBPQ",
@@ -3791,7 +3791,7 @@
    "changeable":1,
    "quickSearch":1,
    "filterable":1,
-   "api":"./ok/lf_p2p2_min.js",
+   "api":"http://haoxixi.us.kg:1980/d/alist/ok/lf_p2p2_min.js",
    "ext":"18+"
    },
   {
@@ -3802,19 +3802,19 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./ok/女优.json",
-            "jar": "./ok/女优.jar"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/ok/女优.json",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/ok/女优.jar"
         },
 {
 "key": "csp_黄瓜TV",
 "name": "💃 | 黄瓜TV㊙️",
 "type": 3,
 "api": "csp_XBPQ",
-"jar": "./XBPQ.jar",
+"jar": "http://haoxixi.us.kg:1980/d/alist/XBPQ.jar",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
-"ext": "./ok/黄瓜TV.json"
+"ext": "http://haoxixi.us.kg:1980/d/alist/ok/黄瓜TV.json"
  },
     {
       "key": "155",
@@ -3885,7 +3885,7 @@
 			"key": "JustLive",
 			"name": "🅿️JustLive|直播",
 			"type": 3,
-      "jar":"./pg.jar",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar",
 			"api": "csp_JustLive",
 			"searchable": 1,
 			"changeable": 0
@@ -3894,30 +3894,30 @@
             "key": "csp_XYQHiker_虎牙直播",
             "name": "🐯 | 虎牙直播(XYQH)",
             "type": 3,
-            "jar": "./XYQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/XYQ.jar",
             "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./py/虎牙直播.json"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/py/虎牙直播.json"
         },
         {
             "key": "csp_XYQHiker_斗鱼直播",
             "name": "🐠 | 斗鱼直播(XYQH)",
             "type": 3,
-            "jar": "./XYQ.jar",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/XYQ.jar",
             "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./py/斗鱼直播.json"
+            "ext": "http://haoxixi.us.kg:1980/d/alist/py/斗鱼直播.json"
         },
     {
       "key": "虎牙直播js",
       "name": "🐯虎牙┃直播",
       "type": 3,
-      "api": "./drpy/drpy2.min.js",
-      "ext": "./js/huya2.js",
+      "api": "http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.min.js",
+      "ext": "http://haoxixi.us.kg:1980/d/alist/js/huya2.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -3931,8 +3931,8 @@
       "key": "斗鱼js",
       "name": "🐟斗鱼┃直播",
       "type": 3,
-      "api": "./drpy/drpy2.min.js",
-      "ext": "./js/斗鱼直播.js",
+      "api": "http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.min.js",
+      "ext": "http://haoxixi.us.kg:1980/d/alist/js/斗鱼直播.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -3946,8 +3946,8 @@
       "key": "聚短视频js",
       "name": "📽️聚短┃视频",
       "type": 3,
-      "api": "./drpy/drpy2.min.js",
-      "ext": "./js/短视频.js",
+      "api": "http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.min.js",
+      "ext": "http://haoxixi.us.kg:1980/d/alist/js/短视频.js",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
@@ -3962,8 +3962,8 @@
     "searchable":1,
     "filterable":1,
     "changeable":1,
-    "ext":"./TV/alist8.json",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/TV/alist8.json",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
     },
 		{"key":"Dovx",
      "name": "🦝阿里|Dovx",
@@ -3973,8 +3973,8 @@
      "quickSearch": 1,
      "filterable": 0,
      "timeout":30,
-     "ext":"./lib/tokenm.json",
-     "jar":"./pg.jar"
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
    {
     "key":"Gitcafe1", 
@@ -3985,8 +3985,8 @@
      "quickSearch": 1,
      "filterable": 0,
      "timeout":30, 
-     "ext":"./lib/tokenm.json",
-     "jar":"./pg.jar"
+     "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+     "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
         {
             "key": "纸条",
@@ -3997,27 +3997,27 @@
             "filterable": 1,
             "changeable": 0,
             "ext": {
-                "token": "./ok/ali_token.txt",
+                "token": "http://haoxixi.us.kg:1980/d/alist/ok/ali_token.txt",
                 "danmu": true
             },
             "timeout": 15,
-    "jar":"./ok.png"
+    "jar":"http://haoxixi.us.kg:1980/d/alist/ok.png"
       },
   	{"key":"混合盘",
     "name":"混合盘|网盘",
     "type":3,"api":"csp_HunHePan",
-    "timeout":30, "ext":"./lib/tokenm.json",
-      "jar":"./pg.jar"
+    "timeout":30, "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
     {"key":"Moli",
     "name":"HDmoli|网盘",
     "type":3,"api":"csp_Moli",
     "quickSearch":1, 
     "changeable":1,
-    "jar":"./pg.jar", 
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar", 
     "filterable":1, 
     "timeout":60, 
-    "ext":"./lib/tokenm.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.hdmoli.pro/$$$null$$$1$$$http://haoxixi.us.kg:1980/d/alist/lib/moli.json"
     },
 		{"key":"Funletu",
     "name":"趣盘搜|夸克",
@@ -4026,8 +4026,8 @@
     "changeable":1,
     "filterable":1, 
     "timeout":30, 
-    "ext":"./lib/tokenm.json",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
   	{"key":"Panta",
     "name":"盘Ta|网盘",
@@ -4035,8 +4035,8 @@
     "quickSearch":1, 
     "changeable":1, "filterable":1, 
     "timeout":30, 
-    "ext":"./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"DaPanSo",
     "name":"大盘搜|网盘",
@@ -4044,16 +4044,16 @@
     "quickSearch":1, 
     "changeable":1, 
     "filterable":1, "timeout":30, 
-    "ext":"./lib/tokenm.json$$$https://dapanso.com$$$null",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://dapanso.com$$$null",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"PikaSo",
     "name":"皮卡搜|网盘",
     "type":3,"api":"csp_PikaSo",
     "quickSearch":1, "changeable":1, 
     "filterable":1, "timeout":30, 
-    "ext":"./lib/tokenm.json$$$https://www.pikaso.top/$$$null",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.pikaso.top/$$$null",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"Qianfan",
     "name":"千帆🅿|网盘",
@@ -4061,16 +4061,16 @@
     "quickSearch":1, "changeable":1, 
     "filterable":1, 
     "timeout":60, 
-    "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$http://haoxixi.us.kg:1980/d/alist/lib/qianfan.txt$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"YunSo",
     "name":"小云搜索🅿|网盘","type":3,
     "api":"csp_YunSo","quickSearch":1, 
     "changeable":1, "filterable":1, 
     "timeout":60, 
-    "ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"YunPanOne",
     "name":"云盘One🅿|网盘",
@@ -4080,16 +4080,16 @@
     "changeable":1, 
     "filterable":1, 
     "timeout":60, 
-    "ext":"./lib/tokenm.json$$$null$$$proxy$$$1",
-    "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$null$$$proxy$$$1",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
      },
     {"key":"PanSearch",
     "name":"PanSearch|网盘",
     "type":3,"api":"csp_PanSearch",
     "quickSearch":1, "changeable":1, 
     "filterable":1, "timeout":30, 
-    "ext":"./lib/tokenm.json",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"Pan99",
     "name":"盘99|网盘",
@@ -4097,78 +4097,78 @@
     "quickSearch":1, 
     "changeable":1, "filterable":1, 
     "timeout":30, 
-    "ext":"./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://pan99.xyz$$$null$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"Hdhive",
     "name":"影巢|网盘","type":3,
     "api":"csp_Hdhive","quickSearch":1, 
     "changeable":1, "filterable":1, 
     "timeout":30, 
-    "ext":"./lib/tokenm.json$$$null$$$1",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$null$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"Ppxzy",
     "name":"皮皮虾|网盘",
     "type":3,"api":"csp_Ppxzy", 
     "quickSearch":1, "changeable":1, 
     "filterable":1, "timeout":30, 
-    "ext":"./lib/tokenm.json$$$http://ppxzy.ink$$$null$$$1",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://ppxzy.ink$$$null$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"校长影视",
     "name":"校长影视|网盘",
     "type":3,"api":"csp_XiaoZhang", 
     "quickSearch":1, "changeable":1, 
     "filterable":1, "timeout":30,
-    "ext":"./lib/tokenm.json$$$null$$$1",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$null$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"团长资源",
     "name":"团长资源|网盘",
     "type":3,"api":"csp_TZFile", 
     "quickSearch":1, "changeable":1, 
     "filterable":1, "timeout":30,
-    "ext":"./lib/tokenm.json$$$null$$$1",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$null$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"Libvio",
     "name":"LIBVIO|网盘","type":3,
     "api":"csp_Libvio","quickSearch":1, 
     "changeable":1, "filterable":1, 
     "timeout":30, 
-    "ext":"./lib/tokenm.json$$$https://www.libvio.pro$$$null",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://www.libvio.pro$$$null",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"PanSearch",
     "name":"PanSearch|网盘",
     "type":3,"api":"csp_PanSearch",
     "quickSearch":1, "changeable":1, 
     "filterable":1, "timeout":30, 
-    "ext":"./lib/tokenm.json",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
     {"key":"88Pan",
     "name":"88网盘|网盘",
     "type":3,"api":"csp_EightEight",
     "timeout":30, 
-    "ext":"./lib/tokenm.json$$$https://662688.xyz",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$https://662688.xyz",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
     {"key":"易搜",
     "name":"🦊易搜",
     "type":3,
     "api":"csp_YiSo",
     "timeout":30, 
-    "ext":"./lib/tokenm.json$$$./lib/yiso.txt",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://haoxixi.us.kg:1980/d/alist/lib/yiso.txt",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
     {"key":"盘搜",
     "name":"盘搜|网盘",
     "type":3,"api":"csp_PanSou",
     "timeout":30, 
-    "ext":"./lib/tokenm.json",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
     {"key":"找資源", 
     "name":"阿里|找資源", 
@@ -4177,8 +4177,8 @@
     "quickSearch":1, 
     "filterable": 0, 
     "timeout":30, 
-    "ext":"./lib/tokenm.json$$$user$$$pass",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$user$$$pass",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
     {"key":"4KHDR",
     "name":"4KHDR|网盘",
@@ -4188,16 +4188,16 @@
     "changeable":1, 
     "filterable":1, 
     "timeout":60, 
-    "ext":"./lib/tokenm.json$$$./lib/4khdr.txt$$$1",
-      "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json$$$http://haoxixi.us.kg:1980/d/alist/lib/4khdr.txt$$$1",
+      "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 		{"key":"UP云搜",
     "name":"阿里|UP云搜",
     "type":3,
     "api":"csp_UpYun",
     "timeout":30, 
-    "ext":"./lib/tokenm.json",
-    "jar":"./pg.jar"
+    "ext":"http://haoxixi.us.kg:1980/d/alist/lib/tokenm.json",
+    "jar":"http://haoxixi.us.kg:1980/d/alist/pg.jar"
       },
 
 #饭太硬
@@ -4210,7 +4210,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "aliToken": "./token/token.txt",
+        "aliToken": "http://haoxixi.us.kg:1980/d/alist/token/token.txt",
         "from": "4k|auto|fhd",
         "danMu": "弹"
       }
@@ -4224,7 +4224,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "aliToken": "./token/token.txt",
+        "aliToken": "http://haoxixi.us.kg:1980/d/alist/token/token.txt",
         "from": "4k|auto|fhd",
         "danMu": "弹"
       }
@@ -4238,7 +4238,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "aliToken": "./token/token.txt",
+        "aliToken": "http://haoxixi.us.kg:1980/d/alist/token/token.txt",
         "from": "4k|auto|fhd",
         "danMu": "弹"
       }
@@ -4252,7 +4252,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "aliToken": "./token/token.txt",
+        "aliToken": "http://haoxixi.us.kg:1980/d/alist/token/token.txt",
         "from": "4k|auto|fhd",
         "danMu": "弹"
       }
@@ -4263,8 +4263,8 @@
             "name": "🔥 | 梦影",
             "type": 3,
             "api": "csp_Movie2",
-            "jar": "./欧哥.jar",
-            "ext": "./py/Movie5.txt",
+            "jar": "http://haoxixi.us.kg:1980/d/alist/欧哥.jar",
+            "ext": "http://haoxixi.us.kg:1980/d/alist/py/Movie5.txt",
             "categories": [
                 "电影",
                 "电视剧",
@@ -4277,11 +4277,11 @@
 
 #教育源
 
-{"key":"dr_兔小贝","name":"📚儿童┃启蒙","type":3,"api":"./drpy/drpy2.min.js","ext":"./js/兔小贝.js","style":{"type":"rect","ratio":1.597},"searchable": 0,"quickSearch": 0,"changeable":0},
-{"key":"少儿教育","name":"📚少儿┃教育","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./js/少儿教育.json"},
-{"key":"小学课堂","name":"📚小学┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./js/小学课堂.json"},
-{"key":"初中课堂","name":"📚初中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./js/初中课堂.json"},
-{"key":"高中教育","name":"📚高中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./js/高中课堂.json"},
+{"key":"dr_兔小贝","name":"📚儿童┃启蒙","type":3,"api":"http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.min.js","ext":"http://haoxixi.us.kg:1980/d/alist/js/兔小贝.js","style":{"type":"rect","ratio":1.597},"searchable": 0,"quickSearch": 0,"changeable":0},
+{"key":"少儿教育","name":"📚少儿┃教育","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"http://haoxixi.us.kg:1980/d/alist/js/少儿教育.json"},
+{"key":"小学课堂","name":"📚小学┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"http://haoxixi.us.kg:1980/d/alist/js/小学课堂.json"},
+{"key":"初中课堂","name":"📚初中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"http://haoxixi.us.kg:1980/d/alist/js/初中课堂.json"},
+{"key":"高中教育","name":"📚高中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"http://haoxixi.us.kg:1980/d/alist/js/高中课堂.json"},
 
 #道长源
 
@@ -4289,51 +4289,51 @@
    "key": "dr_腾云驾雾",
    "name": "腾云驾雾(drpy)",
    "type": 3,
-   "api": "./drpy/drpy2.min.js",
+   "api": "http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.min.js",
    "searchable": 2,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "./js/腾云驾雾.js"
+   "ext": "http://haoxixi.us.kg:1980/d/alist/js/腾云驾雾.js"
   },
   {
    "key": "dr_奇珍异兽",
    "name": "奇珍异兽(drpy)",
    "type": 3,
-   "api": "./drpy/drpy2.min.js",
+   "api": "http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.min.js",
    "searchable": 2,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "./js/奇珍异兽.js"
+   "ext": "http://haoxixi.us.kg:1980/d/alist/js/奇珍异兽.js"
   },
   {
    "key": "dr_优酷",
    "name": "优酷(drpy)",
    "type": 3,
-   "api": "./drpy/drpy2.min.js",
+   "api": "http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.min.js",
    "searchable": 2,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "./js/优酷.js"
+   "ext": "http://haoxixi.us.kg:1980/d/alist/js/优酷.js"
   },
  {
    "key": "dr_百忙无果",
    "name": "百忙无果(drpy)",
    "type": 3,
-   "api": "./drpy/drpy2.min.js",
+   "api": "http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.min.js",
    "searchable": 2,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "./js/百忙无果.js"
+   "ext": "http://haoxixi.us.kg:1980/d/alist/js/百忙无果.js"
   },
   {
    "key": "dr_南瓜影视",
    "name": "南瓜影视(drpy)",
    "type": 3,
-   "api": "./drpy/drpy2.min.js",
+   "api": "http://haoxixi.us.kg:1980/d/alist/drpy/drpy2.min.js",
    "searchable": 2,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "./js/南瓜影视.js"
+   "ext": "http://haoxixi.us.kg:1980/d/alist/js/南瓜影视.js"
   }
 ],
 
@@ -4456,7 +4456,7 @@
 			{
 				"name": "live.ipv6.local",
 				"type": 0,
-				"url": "./lib/live.ipv6.txt",
+				"url": "http://haoxixi.us.kg:1980/d/alist/lib/live.ipv6.txt",
 				
 				"ua": "okhttp/3.15",
 				"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -4475,7 +4475,7 @@
 				"name": "YTLive",
 				"type": 0,
 				
-				"url": "./lib/yo21.txt"
+				"url": "http://haoxixi.us.kg:1980/d/alist/lib/yo21.txt"
 			},
 			{
 				"name": "直播",
